@@ -1,0 +1,9 @@
+{
+  "method": "PUT",
+  "path": "/api/v2/groups/51262745284372.json",
+  "payload": {
+    "group": {
+      "name": "Celula Logistica"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "method": "POST",
+  "path": "/api/v2/tickets.json",
+  "payload": {
+    "ticket": {
+      "subject": "POC T9 legado 1 - Estorno critico",
+      "comment": {
+        "body": "Ticket legado de teste T9 (dado sintetico).",
+        "author_id": 51262855326996,
+        "public": true
+      },
+      "requester_id": 51262855326996,
+      "priority": "normal",
+      "ticket_form_id": 51262768082068,
+      "custom_fields": [
+        {
+          "id": 51262766832660,
+          "value": "motivo_estorno"
+        },
+        {
+          "id": 51262766882580,
+          "value": "sub_estorno_critico"
+        }
+      ]
+    }
+  }
+}

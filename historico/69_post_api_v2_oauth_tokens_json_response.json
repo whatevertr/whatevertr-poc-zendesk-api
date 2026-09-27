@@ -1,0 +1,14 @@
+{
+  "status_code": 200,
+  "body": {
+    "token": {
+      "id": 51265531097236,
+      "scopes": [
+        "impersonate",
+        "write",
+        "read"
+      ],
+      "full_token": "[REDACTED]"
+    }
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "status_code": 200,
+  "body": {
+    "ticket": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/tickets/24.json",
+      "id": 24,
+      "external_id": null,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-07-17T02:19:11Z",
+      "updated_at": "2026-07-17T02:19:39Z",
+      "generated_timestamp": 1784254779,
+      "type": null,
+      "subject": "POC T9 legado 1 - Estorno critico",
+      "raw_subject": "POC T9 legado 1 - Estorno critico",
+      "description": "Ticket legado de teste T9 (dado sintetico).",
+      "priority": "normal",
+      "status": "open",
+      "recipient": null,
+      "requester_id": 51262855326996,
+      "submitter_id": 51262855326996,
+      "assignee_id": 51242520206100,
+      "organization_id": null,
+      "group_id": 51262730328340,
+      "collaborator_ids": [],
+      "follower_ids": [],
+      "email_cc_ids": [],
+      "forum_topic_id": null,
+      "problem_id": null,
+      "has_incidents": false,
+      "is_public": true,
+      "due_at": null,
+      "tags": [
+        "motivo_estorno",
+        "roteamento_corrigido",
+        "sub_estorno_critico"
+      ],
+      "custom_fields": [
+        {
+          "id": 51242506601620,
+          "value": "topic__software__issue_generic__error"
+        },
+        {
+          "id": 51242506608020,
+          "value": "topic_confidence__low"
+        },
+        {
+          "id": 51242506612244,
+          "value": "sentiment__neutral"
+        },
+        {
+          "id": 51242506642708,
+          "value": "language__pt"
+        },
+        {
+          "id": 51242506644500,
+          "value": "language_confidence__low"
+        },
+        {
+          "id": 51242516432788,
+          "value": "sentiment_confidence__high"
+        },
+        {
+          "id": 51242538833684,
+          "value": null
+        },
+        {
+          "id": 51242539407764,
+          "value": null
+        },
+        {
+          "id": 51242539410452,
+          "value": null
+        },
+        {
+          "id": 51242539412116,
+          "value": null
+        },
+        {
+          "id": 51242539584532,
+          "value": null
+        },
+        {
+          "id": 51242552329364,
+          "value": null
+        },
+        {
+          "id": 51242552329620,
+          "value": null
+        },
+        {
+          "id": 51242552330004,
+          "value": null
+        },
+        {
+          "id": 51242552947092,
+          "value": null
+        },
+        {
+          "id": 51242552964500,
+          "value": null
+        },
+        {
+          "id": 51262735029524,
+          "value": null
+        },
+        {
+          "id": 51262750652052,
+          "value": null
+        },
+        {
+          "id": 51262766832660,
+          "value": "motivo_estorno"
+        },
+        {
+          "id": 51262766882580,
+          "value": "sub_estorno_critico"
+        },
+        {
+          "id": 51441453381396,
+          "value": null
+        }
+      ],
+      "satisfaction_rating": {
+        "score": "unoffered"
+      },
+      "sharing_agreement_ids": [],
+      "custom_status_id": 51242552765844,
+      "encoded_id": "N2VKJ5-Z33DN",
+      "fields": [
+        {
+          "id": 51242506601620,
+          "value": "topic__software__issue_generic__error"
+        },
+        {
+          "id": 51242506608020,
+          "value": "topic_confidence__low"
+        },
+        {
+          "id": 51242506612244,
+          "value": "sentiment__neutral"
+        },
+        {
+          "id": 51242506642708,
+          "value": "language__pt"
+        },
+        {
+          "id": 51242506644500,
+          "value": "language_confidence__low"
+        },
+        {
+          "id": 51242516432788,
+          "value": "sentiment_confidence__high"
+        },
+        {
+          "id": 51242538833684,
+          "value": null
+        },
+        {
+          "id": 51242539407764,
+          "value": null
+        },
+        {
+          "id": 51242539410452,
+          "value": null
+        },
+        {
+          "id": 51242539412116,
+          "value": null
+        },
+        {
+          "id": 51242539584532,
+          "value": null
+        },
+        {
+          "id": 51242552329364,
+          "value": null
+        },
+        {
+          "id": 51242552329620,
+          "value": null
+        },
+        {
+          "id": 51242552330004,
+          "value": null
+        },
+        {
+          "id": 51242552947092,
+          "value": null
+        },
+        {
+          "id": 51242552964500,
+          "value": null
+        },
+        {
+          "id": 51262735029524,
+          "value": null
+        },
+        {
+          "id": 51262750652052,
+          "value": null
+        },
+        {
+          "id": 51262766832660,
+          "value": "motivo_estorno"
+        },
+        {
+          "id": 51262766882580,
+          "value": "sub_estorno_critico"
+        },
+        {
+          "id": 51441453381396,
+          "value": null
+        }
+      ],
+      "followup_ids": [],
+      "ticket_form_id": 51262768082068,
+      "brand_id": 51242552746132,
+      "allow_channelback": false,
+      "allow_attachments": true,
+      "from_messaging_channel": false,
+      "support_type": "agent"
+    },
+    "audit": {
+      "id": 51441393230740,
+      "ticket_id": 24,
+      "created_at": "2026-07-17T02:19:39Z",
+      "author_id": 51242520206100,
+      "metadata": {
+        "system": { "_removido": "metadados de execucao (origem da requisicao) removidos para publicacao" },
+        "custom": {}
+      },
+      "events": [
+        {
+          "id": 51441393230868,
+          "type": "Change",
+          "value": "51262745284372",
+          "field_name": "group_id",
+          "previous_value": "51262730328340"
+        },
+        {
+          "id": 51441393230996,
+          "type": "Change",
+          "via": {
+            "channel": "rule",
+            "source": {
+              "from": {
+                "deleted": false,
+                "title": "Trava POC - Estorno fora da Celula Financeiro (corretiva)",
+                "id": 51265215603092
+              },
+              "rel": "trigger"
+            }
+          },
+          "value": "51262730328340",
+          "field_name": "group_id",
+          "previous_value": "51262745284372"
+        },
+        {
+          "id": 51441393231124,
+          "type": "Change",
+          "via": {
+            "channel": "rule",
+            "source": {
+              "from": {
+                "deleted": false,
+                "title": "Trava POC - Estorno fora da Celula Financeiro (corretiva)",
+                "id": 51265215603092
+              },
+              "rel": "trigger"
+            }
+          },
+          "value": [
+            "motivo_estorno",
+            "roteamento_corrigido",
+            "sub_estorno_critico"
+          ],
+          "field_name": "tags",
+          "previous_value": [
+            "motivo_estorno",
+            "sub_estorno_critico"
+          ]
+        }
+      ],
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "method": "POST",
+  "path": "/api/v2/groups.json",
+  "payload": {
+    "group": {
+      "name": "Celula Transporte",
+      "description": "POC taxonomia - celula Celula Transporte"
+    }
+  }
+}

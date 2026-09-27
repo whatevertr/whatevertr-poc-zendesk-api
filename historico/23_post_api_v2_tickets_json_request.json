@@ -1,0 +1,24 @@
+{
+  "method": "POST",
+  "path": "/api/v2/tickets.json",
+  "payload": {
+    "ticket": {
+      "subject": "POC T2 transacional",
+      "comment": {
+        "body": "Ticket de teste POC - dado sintetico."
+      },
+      "priority": "normal",
+      "ticket_form_id": 51262768082068,
+      "custom_fields": [
+        {
+          "id": 51262766832660,
+          "value": "motivo_estorno"
+        },
+        {
+          "id": 51262766882580,
+          "value": "sub_estorno_padrao"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "method": "PUT",
+  "path": "/api/v2/tickets/update_many.json?ids=14",
+  "payload": {
+    "ticket": {
+      "additional_tags": [
+        "trilha_casca"
+      ]
+    }
+  },
+  "nota": null
+}

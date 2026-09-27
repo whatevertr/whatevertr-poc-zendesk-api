@@ -1,0 +1,49 @@
+{
+  "status_code": 201,
+  "body": {
+    "trigger": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/triggers/51265513480212.json",
+      "id": 51265513480212,
+      "title": "CSAT POC - oferecer pesquisa apenas na casca (ao resolver)",
+      "active": true,
+      "updated_at": "2026-07-12T22:50:21Z",
+      "created_at": "2026-07-12T22:50:21Z",
+      "default": false,
+      "actions": [
+        {
+          "field": "satisfaction_score",
+          "value": "offered"
+        }
+      ],
+      "conditions": {
+        "all": [
+          {
+            "field": "update_type",
+            "operator": "is",
+            "value": "Change"
+          },
+          {
+            "field": "status",
+            "operator": "value",
+            "value": "solved"
+          },
+          {
+            "field": "current_tags",
+            "operator": "includes",
+            "value": "trilha_casca"
+          },
+          {
+            "field": "current_tags",
+            "operator": "not_includes",
+            "value": "etapa_trilha"
+          }
+        ],
+        "any": []
+      },
+      "description": null,
+      "position": 16,
+      "raw_title": "CSAT POC - oferecer pesquisa apenas na casca (ao resolver)",
+      "category_id": "51242539291924"
+    }
+  }
+}

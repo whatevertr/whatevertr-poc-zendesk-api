@@ -1,0 +1,41 @@
+{
+  "method": "POST",
+  "path": "/api/v2/views.json",
+  "payload": {
+    "view": {
+      "title": "POC View - Estorno Critico (Financeiro)",
+      "active": true,
+      "conditions": {
+        "all": [
+          {
+            "field": "group_id",
+            "operator": "is",
+            "value": "51262730328340"
+          },
+          {
+            "field": "custom_fields_51262766882580",
+            "operator": "is",
+            "value": "sub_estorno_critico"
+          },
+          {
+            "field": "status",
+            "operator": "less_than",
+            "value": "solved"
+          }
+        ],
+        "any": []
+      },
+      "output": {
+        "columns": [
+          "subject",
+          "requester",
+          51262766832660,
+          51262766882580
+        ],
+        "group_by": "status",
+        "sort_by": "created",
+        "sort_order": "desc"
+      }
+    }
+  }
+}

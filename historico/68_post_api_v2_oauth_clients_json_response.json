@@ -1,0 +1,10 @@
+{
+  "status_code": 201,
+  "body": {
+    "oauth_client": {
+      "id": 51265553993364,
+      "name": "POC CSAT Impersonacao (descartavel)",
+      "secret": "[REDACTED]"
+    }
+  }
+}

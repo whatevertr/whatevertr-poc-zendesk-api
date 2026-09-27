@@ -1,0 +1,302 @@
+{
+  "o_que_e": "Mapa de tudo que a POC criou na instancia trial SUBDOMINIO_TESTE (ordem = teardown recomendado). Gerado a partir do log integral de POST/PUT.",
+  "gerado_em": "2026-07-12",
+  "total_chamadas_escrita": 105,
+  "objetos_criados": [
+    {
+      "tipo": "view",
+      "id": 51441438099348,
+      "nome": "POC View - Estorno Critico (Financeiro)"
+    },
+    {
+      "tipo": "view",
+      "id": 51441419457428,
+      "nome": "POC View - Estorno Padrao (Financeiro)"
+    },
+    {
+      "tipo": "campo_ticket",
+      "id": 51441453381396,
+      "nome": "Aprovacao Financeira (POC T9)"
+    },
+    {
+      "tipo": "trigger",
+      "id": 51441473399444,
+      "nome": "Roteamento POC T9 - generico A -> Logistica"
+    },
+    {
+      "tipo": "ticket",
+      "id": 2,
+      "nome": "POC T2 critico"
+    },
+    {
+      "tipo": "ticket",
+      "id": 3,
+      "nome": "POC T2 padrao"
+    },
+    {
+      "tipo": "ticket",
+      "id": 4,
+      "nome": "POC T2 transacional"
+    },
+    {
+      "tipo": "ticket",
+      "id": 5,
+      "nome": "POC T3 roteamento"
+    },
+    {
+      "tipo": "ticket",
+      "id": 6,
+      "nome": "POC T3b roteamento negativo"
+    },
+    {
+      "tipo": "ticket",
+      "id": 7,
+      "nome": "POC T2v2 critico"
+    },
+    {
+      "tipo": "ticket",
+      "id": 8,
+      "nome": "POC T2v2 padrao"
+    },
+    {
+      "tipo": "ticket",
+      "id": 9,
+      "nome": "POC T2v2 transacional"
+    },
+    {
+      "tipo": "ticket",
+      "id": 10,
+      "nome": "POC T4 trilha 1/4 - Devolucao"
+    },
+    {
+      "tipo": "ticket",
+      "id": 11,
+      "nome": "POC T4 trilha 2/4 - Coleta"
+    },
+    {
+      "tipo": "ticket",
+      "id": 12,
+      "nome": "POC T4 trilha 3/4 - NFD"
+    },
+    {
+      "tipo": "ticket",
+      "id": 13,
+      "nome": "POC T4 trilha 4/4 - Estorno"
+    },
+    {
+      "tipo": "ticket",
+      "id": 14,
+      "nome": "POC T6 casca - Devolucao (numero do cliente)"
+    },
+    {
+      "tipo": "ticket",
+      "id": 15,
+      "nome": "POC T6-A etapa 1 - Coleta"
+    },
+    {
+      "tipo": "ticket",
+      "id": 16,
+      "nome": "POC T6-A etapa 2 - NFD"
+    },
+    {
+      "tipo": "ticket",
+      "id": 17,
+      "nome": "POC T6-A etapa 3 - Estorno"
+    },
+    {
+      "tipo": "ticket",
+      "id": 18,
+      "nome": "POC T6-B etapa 1 - Coleta"
+    },
+    {
+      "tipo": "ticket",
+      "id": 19,
+      "nome": "POC T6-B etapa 2 - NFD"
+    },
+    {
+      "tipo": "ticket",
+      "id": 20,
+      "nome": "POC T6-B etapa 3 - Estorno"
+    },
+    {
+      "tipo": "ticket",
+      "id": 21,
+      "nome": "POC T8 casca - Devolucao (ramificacao paralela)"
+    },
+    {
+      "tipo": "ticket",
+      "id": 22,
+      "nome": "POC T8 etapa P1 - Coleta (paralela)"
+    },
+    {
+      "tipo": "ticket",
+      "id": 23,
+      "nome": "POC T8 etapa P2 - NFD (paralela)"
+    },
+    {
+      "tipo": "ticket",
+      "id": 24,
+      "nome": "POC T9 legado 1 - Estorno critico"
+    },
+    {
+      "tipo": "ticket",
+      "id": 25,
+      "nome": "POC T9 legado 2 - Estorno critico"
+    },
+    {
+      "tipo": "ticket",
+      "id": 26,
+      "nome": "POC T9 legado 3 - Estorno padrao"
+    },
+    {
+      "tipo": "ticket",
+      "id": 27,
+      "nome": "POC T9 legado 4 - Estorno padrao"
+    },
+    {
+      "tipo": "ticket",
+      "id": 28,
+      "nome": "POC T9 legado 5 - Generico"
+    },
+    {
+      "tipo": "ticket",
+      "id": 29,
+      "nome": "POC T9 renome - generico A"
+    },
+    {
+      "tipo": "trigger",
+      "id": 51262740366996,
+      "nome": "Roteamento POC - motivo_devolucao -> Celula SAC"
+    },
+    {
+      "tipo": "trigger",
+      "id": 51262763671060,
+      "nome": "Roteamento POC - motivo_coleta -> Celula Transporte"
+    },
+    {
+      "tipo": "trigger",
+      "id": 51262753884564,
+      "nome": "Roteamento POC - motivo_nfd -> Celula Logistica"
+    },
+    {
+      "tipo": "trigger",
+      "id": 51262770727188,
+      "nome": "Roteamento POC - motivo_estorno -> Celula Financeiro"
+    },
+    {
+      "tipo": "trigger",
+      "id": 51265215603092,
+      "nome": "Trava POC - Estorno fora da Celula Financeiro (corretiva)"
+    },
+    {
+      "tipo": "trigger",
+      "id": 51265513480212,
+      "nome": "CSAT POC - oferecer pesquisa apenas na casca (ao resolver)"
+    },
+    {
+      "tipo": "automacao",
+      "id": 51265483134868,
+      "nome": "CSAT POC - pesquisa 1h pos-resolucao (so casca)"
+    },
+    {
+      "tipo": "satisfaction_rating",
+      "id": 51265522003092,
+      "nome": "CSAT good no ticket 14 (casca)"
+    },
+    {
+      "tipo": "politica_sla",
+      "id": 51262753151764,
+      "nome": "SLA Critico 4h uteis"
+    },
+    {
+      "tipo": "politica_sla",
+      "id": 51262769795860,
+      "nome": "SLA Transacional 8h uteis"
+    },
+    {
+      "tipo": "politica_sla",
+      "id": 51262738779540,
+      "nome": "SLA Padrao 24h uteis"
+    },
+    {
+      "tipo": "formulario",
+      "id": 51262768082068,
+      "nome": "Formulario Unificado POC"
+    },
+    {
+      "tipo": "campo_ticket",
+      "id": 51262766832660,
+      "nome": "Motivo (N2)"
+    },
+    {
+      "tipo": "campo_ticket",
+      "id": 51262766882580,
+      "nome": "Submotivo (N3)"
+    },
+    {
+      "tipo": "campo_ticket",
+      "id": 51262750652052,
+      "nome": "Submotivo Estorno (N3 condicional demo)"
+    },
+    {
+      "tipo": "campo_ticket",
+      "id": 51262735029524,
+      "nome": "Ticket Anterior (Trilha)"
+    },
+    {
+      "tipo": "group_membership",
+      "id": 51262798613652,
+      "nome": "user 51242520206100 x grupo 51262745235220"
+    },
+    {
+      "tipo": "group_membership",
+      "id": 51262798626324,
+      "nome": "user 51242520206100 x grupo 51262730291092"
+    },
+    {
+      "tipo": "group_membership",
+      "id": 51262870053396,
+      "nome": "user 51242520206100 x grupo 51262745284372"
+    },
+    {
+      "tipo": "group_membership",
+      "id": 51262853235092,
+      "nome": "user 51242520206100 x grupo 51262730328340"
+    },
+    {
+      "tipo": "grupo",
+      "id": 51262745235220,
+      "nome": "Celula SAC"
+    },
+    {
+      "tipo": "grupo",
+      "id": 51262730291092,
+      "nome": "Celula Transporte"
+    },
+    {
+      "tipo": "grupo",
+      "id": 51262745284372,
+      "nome": "Celula Logistica"
+    },
+    {
+      "tipo": "grupo",
+      "id": 51262730328340,
+      "nome": "Celula Financeiro"
+    },
+    {
+      "tipo": "schedule",
+      "id": 51262745177364,
+      "nome": "Horario Util POC"
+    },
+    {
+      "tipo": "usuario_end_user",
+      "id": 51262855326996,
+      "nome": "Cliente Teste POC"
+    }
+  ],
+  "atualizado_em": "2026-07-12 (V5.1 - T9)",
+  "observacao_v2": "Chamadas 44-56: T6 (casca e etapas 14-20, trava corretiva, atualizacao das 3 politicas SLA com requester_wait_time).",
+  "observacao_v3": "Chamadas 57-77: T7 CSAT (ativacao customer_satisfaction em account/settings; automacao-sistema de CSAT criada pela ativacao [51265496710036] foi DESATIVADA; OAuth client 51265553993364 e token 51265531097236 criados para impersonacao e REVOGADOS [DELETE 204]; valores de token/secret censurados como [REDACTED] no historico).",
+  "observacao_v4": "Chamadas 78-83: T8 ramificacao paralela (casca 21, etapas paralelas 22/23; fechamento por completude via script no papel do webhook).",
+  "observacao_v5_1": "Chamadas 84-105: T9 (5 tickets legado 24-28 + ticket 29; 2 views; campo obrigatorio 51441453381396 adicionado ao formulario; job update_many 5/5; trigger generico A; renomes de grupo/campo REVERTIDOS; tentativa de custom_role -> 402 Payment Required, nada criado)."
+}

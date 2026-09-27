@@ -1,0 +1,55 @@
+{
+  "status_code": 200,
+  "body": {
+    "ticket_form": {
+      "id": 51262768082068,
+      "raw_name": "Formulario Unificado POC",
+      "raw_display_name": "Formulario Unificado POC",
+      "end_user_visible": true,
+      "position": 2,
+      "ticket_field_ids": [
+        51242552668820,
+        51242552669076,
+        51242539137684,
+        51242552669972,
+        51242552670228,
+        51242552670356,
+        51242539138580,
+        51242552669460,
+        51262766832660,
+        51262766882580,
+        51262750652052,
+        51262735029524,
+        51441453381396
+      ],
+      "active": true,
+      "default": false,
+      "in_all_brands": true,
+      "restricted_brand_ids": [],
+      "end_user_conditions": [],
+      "agent_conditions": [
+        {
+          "parent_field_id": 51262766832660,
+          "parent_field_type": "tagger",
+          "value": "motivo_estorno",
+          "child_fields": [
+            {
+              "id": 51262750652052,
+              "is_required": false,
+              "required_on_statuses": {
+                "type": "NO_STATUSES"
+              }
+            }
+          ]
+        }
+      ],
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/ticket_forms/51262768082068.json",
+      "name": "Formulario Unificado POC",
+      "display_name": "Formulario Unificado POC",
+      "form_type": "standard",
+      "created_at": "2026-07-12T20:12:16Z",
+      "updated_at": "2026-07-17T02:19:38Z",
+      "deleted_at": null
+    }
+  }
+}

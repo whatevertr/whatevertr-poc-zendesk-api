@@ -1,0 +1,415 @@
+{
+  "status_code": 201,
+  "body": {
+    "ticket": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/tickets/23.json",
+      "id": 23,
+      "external_id": null,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-07-12T23:19:45Z",
+      "updated_at": "2026-07-12T23:19:45Z",
+      "generated_timestamp": 0,
+      "type": null,
+      "subject": "POC T8 etapa P2 - NFD (paralela)",
+      "raw_subject": "POC T8 etapa P2 - NFD (paralela)",
+      "description": "Etapa paralela da trilha. POC.",
+      "priority": "normal",
+      "status": "open",
+      "recipient": null,
+      "requester_id": 51242520206100,
+      "submitter_id": 51242520206100,
+      "assignee_id": 51242520206100,
+      "organization_id": 51242539275156,
+      "group_id": 51262745284372,
+      "collaborator_ids": [],
+      "follower_ids": [],
+      "email_cc_ids": [],
+      "forum_topic_id": null,
+      "problem_id": null,
+      "has_incidents": false,
+      "is_public": true,
+      "due_at": null,
+      "tags": [
+        "etapa_trilha",
+        "motivo_nfd",
+        "sub_nfd_padrao"
+      ],
+      "custom_fields": [
+        {
+          "id": 51242506601620,
+          "value": null
+        },
+        {
+          "id": 51242506608020,
+          "value": null
+        },
+        {
+          "id": 51242506612244,
+          "value": null
+        },
+        {
+          "id": 51242506642708,
+          "value": null
+        },
+        {
+          "id": 51242506644500,
+          "value": null
+        },
+        {
+          "id": 51242516432788,
+          "value": null
+        },
+        {
+          "id": 51242538833684,
+          "value": null
+        },
+        {
+          "id": 51242539407764,
+          "value": null
+        },
+        {
+          "id": 51242539410452,
+          "value": null
+        },
+        {
+          "id": 51242539412116,
+          "value": null
+        },
+        {
+          "id": 51242539584532,
+          "value": null
+        },
+        {
+          "id": 51242552329364,
+          "value": null
+        },
+        {
+          "id": 51242552329620,
+          "value": null
+        },
+        {
+          "id": 51242552330004,
+          "value": null
+        },
+        {
+          "id": 51242552947092,
+          "value": null
+        },
+        {
+          "id": 51242552964500,
+          "value": null
+        },
+        {
+          "id": 51262735029524,
+          "value": "21"
+        },
+        {
+          "id": 51262750652052,
+          "value": null
+        },
+        {
+          "id": 51262766832660,
+          "value": "motivo_nfd"
+        },
+        {
+          "id": 51262766882580,
+          "value": "sub_nfd_padrao"
+        }
+      ],
+      "satisfaction_rating": {
+        "score": "unoffered"
+      },
+      "sharing_agreement_ids": [],
+      "custom_status_id": 51242552765844,
+      "encoded_id": "N2PW1Z-KK1DN",
+      "fields": [
+        {
+          "id": 51242506601620,
+          "value": null
+        },
+        {
+          "id": 51242506608020,
+          "value": null
+        },
+        {
+          "id": 51242506612244,
+          "value": null
+        },
+        {
+          "id": 51242506642708,
+          "value": null
+        },
+        {
+          "id": 51242506644500,
+          "value": null
+        },
+        {
+          "id": 51242516432788,
+          "value": null
+        },
+        {
+          "id": 51242538833684,
+          "value": null
+        },
+        {
+          "id": 51242539407764,
+          "value": null
+        },
+        {
+          "id": 51242539410452,
+          "value": null
+        },
+        {
+          "id": 51242539412116,
+          "value": null
+        },
+        {
+          "id": 51242539584532,
+          "value": null
+        },
+        {
+          "id": 51242552329364,
+          "value": null
+        },
+        {
+          "id": 51242552329620,
+          "value": null
+        },
+        {
+          "id": 51242552330004,
+          "value": null
+        },
+        {
+          "id": 51242552947092,
+          "value": null
+        },
+        {
+          "id": 51242552964500,
+          "value": null
+        },
+        {
+          "id": 51262735029524,
+          "value": "21"
+        },
+        {
+          "id": 51262750652052,
+          "value": null
+        },
+        {
+          "id": 51262766832660,
+          "value": "motivo_nfd"
+        },
+        {
+          "id": 51262766882580,
+          "value": "sub_nfd_padrao"
+        }
+      ],
+      "followup_ids": [],
+      "ticket_form_id": 51262768082068,
+      "brand_id": 51242552746132,
+      "allow_channelback": false,
+      "allow_attachments": true,
+      "from_messaging_channel": false,
+      "support_type": "agent"
+    },
+    "audit": {
+      "id": 51266010687124,
+      "ticket_id": 23,
+      "created_at": "2026-07-12T23:19:45Z",
+      "author_id": 51242520206100,
+      "metadata": {
+        "system": { "_removido": "metadados de execucao (origem da requisicao) removidos para publicacao" },
+        "custom": {}
+      },
+      "events": [
+        {
+          "id": 51266010687252,
+          "type": "Comment",
+          "author_id": 51242520206100,
+          "body": "Etapa paralela da trilha. POC.",
+          "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Etapa paralela da trilha. POC.</p></div>",
+          "plain_body": "Etapa paralela da trilha. POC.",
+          "public": true,
+          "attachments": [],
+          "audit_id": 51266010687124
+        },
+        {
+          "id": 51266010687380,
+          "type": "Create",
+          "value": "normal",
+          "field_name": "priority"
+        },
+        {
+          "id": 51266010687508,
+          "type": "Create",
+          "value": "51242520206100",
+          "field_name": "requester_id"
+        },
+        {
+          "id": 51266010687636,
+          "type": "Create",
+          "value": "POC T8 etapa P2 - NFD (paralela)",
+          "field_name": "subject"
+        },
+        {
+          "id": 51266010687764,
+          "type": "Create",
+          "value": [
+            "etapa_trilha",
+            "motivo_nfd",
+            "sub_nfd_padrao"
+          ],
+          "field_name": "tags"
+        },
+        {
+          "id": 51266010687892,
+          "type": "Create",
+          "value": "51262768082068",
+          "field_name": "ticket_form_id"
+        },
+        {
+          "id": 51266010688020,
+          "type": "Create",
+          "value": "motivo_nfd",
+          "field_name": "51262766832660"
+        },
+        {
+          "id": 51266010688148,
+          "type": "Create",
+          "value": "sub_nfd_padrao",
+          "field_name": "51262766882580"
+        },
+        {
+          "id": 51266010688276,
+          "type": "Create",
+          "value": "21",
+          "field_name": "51262735029524"
+        },
+        {
+          "id": 51266010688404,
+          "type": "Create",
+          "value": null,
+          "field_name": "type"
+        },
+        {
+          "id": 51266010688532,
+          "type": "Create",
+          "value": "open",
+          "field_name": "status"
+        },
+        {
+          "id": 51266010688660,
+          "type": "Create",
+          "value": "51242520206100",
+          "field_name": "assignee_id"
+        },
+        {
+          "id": 51266010688788,
+          "type": "Create",
+          "value": "51242552794132",
+          "field_name": "group_id"
+        },
+        {
+          "id": 51266010688916,
+          "type": "Create",
+          "value": "51242539275156",
+          "field_name": "organization_id"
+        },
+        {
+          "id": 51266010689044,
+          "type": "Create",
+          "value": "51242552765844",
+          "field_name": "custom_status_id"
+        },
+        {
+          "id": 51266010689172,
+          "type": "Create",
+          "value": "51242552746132",
+          "field_name": "brand_id"
+        },
+        {
+          "id": 51266010689300,
+          "type": "Notification",
+          "via": {
+            "channel": "rule",
+            "source": {
+              "from": {
+                "deleted": false,
+                "title": "Notificar solicitante de um novo ticket proativo",
+                "id": 51242539301268
+              },
+              "rel": "trigger"
+            }
+          },
+          "subject": "{{ticket.title}}",
+          "body": "Este ticket foi criado em seu nome.<br/><br/>Para adicionar mais comentários, responda a este e-mail.<br/><br/>{{ticket.latest_public_comment_html}}",
+          "recipients": [
+            51242520206100
+          ]
+        },
+        {
+          "id": 51266010689428,
+          "type": "Notification",
+          "via": {
+            "channel": "rule",
+            "source": {
+              "from": {
+                "deleted": false,
+                "title": "Notificar a todos os agentes sobre a solicitação recebida",
+                "id": 51242539311252
+              },
+              "rel": "trigger"
+            }
+          },
+          "subject": "[{{ticket.account}}] {{ticket.title}}",
+          "body": "Um ticket (nº #{{ticket.id}}) de {{ticket.requester.name}} foi recebido. Ele não foi atribuído.<br/><br/>{{ticket.latest_comment_html}}",
+          "recipients": [
+            51242520206100
+          ]
+        },
+        {
+          "id": 51266010689556,
+          "type": "Change",
+          "via": {
+            "channel": "rule",
+            "source": {
+              "from": {
+                "deleted": false,
+                "title": "Roteamento POC - motivo_nfd -> Celula Logistica",
+                "id": 51262753884564
+              },
+              "rel": "trigger"
+            }
+          },
+          "value": "51262745284372",
+          "field_name": "group_id",
+          "previous_value": "51242552794132"
+        },
+        {
+          "id": 51266010695060,
+          "type": "Create",
+          "value": "SLA Padrao 24h uteis",
+          "field_name": "sla_policy"
+        }
+      ],
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {
+            "address": "admin_sintetico_AT_example.com",
+            "name": "ADMIN SINTETICO"
+          },
+          "rel": null
+        }
+      }
+    }
+  }
+}

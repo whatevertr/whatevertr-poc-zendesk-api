@@ -1,0 +1,110 @@
+{
+  "status_code": 201,
+  "body": {
+    "view": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/views/51441419457428.json",
+      "id": 51441419457428,
+      "title": "POC View - Estorno Padrao (Financeiro)",
+      "active": true,
+      "updated_at": "2026-07-17T02:19:15Z",
+      "created_at": "2026-07-17T02:19:15Z",
+      "default": false,
+      "position": 13,
+      "description": null,
+      "execution": {
+        "group_by": null,
+        "group_order": "desc",
+        "sort_by": "priority",
+        "sort_order": "desc",
+        "group": null,
+        "sort": {
+          "id": "priority",
+          "title": "Prioridade",
+          "filterable": true,
+          "sortable": true,
+          "order": "desc"
+        },
+        "columns": [
+          {
+            "id": "subject",
+            "title": "Assunto",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "priority",
+            "title": "Prioridade",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "created",
+            "title": "Data da solicitação",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": 51262766882580,
+            "title": "Submotivo (N3)",
+            "type": "tagger",
+            "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/ticket_fields/51262766882580.json",
+            "filterable": true,
+            "sortable": true
+          }
+        ],
+        "fields": [
+          {
+            "id": "subject",
+            "title": "Assunto",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "priority",
+            "title": "Prioridade",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "created",
+            "title": "Data da solicitação",
+            "filterable": false,
+            "sortable": true
+          }
+        ],
+        "custom_fields": [
+          {
+            "id": 51262766882580,
+            "title": "Submotivo (N3)",
+            "type": "tagger",
+            "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/ticket_fields/51262766882580.json",
+            "filterable": true,
+            "sortable": true
+          }
+        ]
+      },
+      "conditions": {
+        "all": [
+          {
+            "field": "group_id",
+            "operator": "is",
+            "value": "51262730328340"
+          },
+          {
+            "field": "custom_fields_51262766882580",
+            "operator": "is",
+            "value": "sub_estorno_padrao"
+          },
+          {
+            "field": "status",
+            "operator": "less_than",
+            "value": "solved"
+          }
+        ],
+        "any": []
+      },
+      "restriction": null,
+      "raw_title": "POC View - Estorno Padrao (Financeiro)"
+    }
+  }
+}

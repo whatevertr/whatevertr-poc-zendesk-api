@@ -1,0 +1,21 @@
+{
+  "method": "POST",
+  "path": "/api/v2/ticket_fields.json",
+  "payload": {
+    "ticket_field": {
+      "type": "tagger",
+      "title": "Submotivo Estorno (N3 condicional demo)",
+      "description": "POC - demo de filtragem de opcoes por campo dedicado condicional",
+      "custom_field_options": [
+        {
+          "name": "Estorno - Critico (demo)",
+          "value": "demo_estorno_critico"
+        },
+        {
+          "name": "Estorno - Padrao (demo)",
+          "value": "demo_estorno_padrao"
+        }
+      ]
+    }
+  }
+}

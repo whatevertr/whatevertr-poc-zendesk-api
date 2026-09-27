@@ -1,0 +1,27 @@
+{
+  "method": "POST",
+  "path": "/api/v2/ticket_forms.json",
+  "payload": {
+    "ticket_form": {
+      "name": "Formulario Unificado POC",
+      "display_name": "Formulario Unificado POC",
+      "position": 2,
+      "active": true,
+      "end_user_visible": true,
+      "ticket_field_ids": [
+        51242552668820,
+        51242552669076,
+        51242539137684,
+        51242552669972,
+        51242552670228,
+        51242552670356,
+        51242539138580,
+        51242552669460,
+        51262766832660,
+        51262766882580,
+        51262750652052,
+        51262735029524
+      ]
+    }
+  }
+}

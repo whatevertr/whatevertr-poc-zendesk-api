@@ -1,0 +1,39 @@
+{
+  "method": "PUT",
+  "path": "/api/v2/automations/51265496710036.json",
+  "payload": {
+    "automation": {
+      "conditions": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "less_than",
+            "value": "closed"
+          },
+          {
+            "field": "SOLVED",
+            "operator": "is",
+            "value": "1"
+          },
+          {
+            "field": "satisfaction_score",
+            "operator": "is",
+            "value": "unoffered"
+          },
+          {
+            "field": "ticket_is_public",
+            "operator": "is",
+            "value": "public"
+          },
+          {
+            "field": "current_tags",
+            "operator": "not_includes",
+            "value": "etapa_trilha"
+          }
+        ],
+        "any": []
+      }
+    }
+  },
+  "nota": null
+}

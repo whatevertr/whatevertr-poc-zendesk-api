@@ -1,0 +1,83 @@
+{
+  "status_code": 200,
+  "body": {
+    "sla_policy": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/slas/policies/51262769795860.json",
+      "id": 51262769795860,
+      "title": "SLA Transacional 8h uteis",
+      "description": "POC - estorno padrao (transacional)",
+      "position": 2,
+      "filter": {
+        "all": [
+          {
+            "field": "ticket_fields_51262766882580",
+            "operator": "is",
+            "value": "51262747077268"
+          }
+        ],
+        "any": []
+      },
+      "policy_metrics": [
+        {
+          "priority": "low",
+          "metric": "first_reply_time",
+          "target": 480,
+          "business_hours": true,
+          "target_in_seconds": 28800
+        },
+        {
+          "priority": "normal",
+          "metric": "first_reply_time",
+          "target": 480,
+          "business_hours": true,
+          "target_in_seconds": 28800
+        },
+        {
+          "priority": "high",
+          "metric": "first_reply_time",
+          "target": 480,
+          "business_hours": true,
+          "target_in_seconds": 28800
+        },
+        {
+          "priority": "urgent",
+          "metric": "first_reply_time",
+          "target": 480,
+          "business_hours": true,
+          "target_in_seconds": 28800
+        },
+        {
+          "priority": "low",
+          "metric": "requester_wait_time",
+          "target": 480,
+          "business_hours": true,
+          "target_in_seconds": 28800
+        },
+        {
+          "priority": "normal",
+          "metric": "requester_wait_time",
+          "target": 480,
+          "business_hours": true,
+          "target_in_seconds": 28800
+        },
+        {
+          "priority": "high",
+          "metric": "requester_wait_time",
+          "target": 480,
+          "business_hours": true,
+          "target_in_seconds": 28800
+        },
+        {
+          "priority": "urgent",
+          "metric": "requester_wait_time",
+          "target": 480,
+          "business_hours": true,
+          "target_in_seconds": 28800
+        }
+      ],
+      "created_at": "2026-07-12T20:12:47Z",
+      "updated_at": "2026-07-12T22:30:22Z",
+      "metric_settings": null
+    }
+  }
+}

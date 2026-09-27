@@ -1,0 +1,11 @@
+{
+  "method": "POST",
+  "path": "/api/v2/oauth/clients.json",
+  "payload": {
+    "client": {
+      "name": "POC CSAT Impersonacao (descartavel)",
+      "identifier": "poc_csat_imp"
+    }
+  },
+  "nota": null
+}

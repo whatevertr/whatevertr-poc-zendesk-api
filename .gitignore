@@ -1,0 +1,31 @@
+# --- já existente, mantido ---
+.env
+*.xlsx
+!data/*.xlsx   # EXCEÇÃO: a base SINTÉTICA (gerada por parâmetros) é publicada de propósito; planilha real segue barrada em qualquer outra pasta
+__pycache__/
+
+# --- segredos/credenciais (grupo C) ---
+.env.*
+*.pem
+*.key
+*.crt
+secrets.*
+credentials.*
+*.credentials
+
+# --- cache/temporários Python (grupo C) ---
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# --- sistema operacional (grupo C) ---
+.DS_Store
+Thumbs.db
+
+
+# --- docs de contexto operacional da empresa (grupo B) ---
+DOCUMENTACAO_POC.md
+CONTINUIDADE_POC.md
+Log_Trabalho_POC.md

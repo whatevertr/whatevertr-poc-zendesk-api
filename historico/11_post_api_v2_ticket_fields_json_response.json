@@ -1,0 +1,37 @@
+{
+  "status_code": 201,
+  "body": {
+    "ticket_field": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/ticket_fields/51262735029524.json",
+      "id": 51262735029524,
+      "type": "lookup",
+      "title": "Ticket Anterior (Trilha)",
+      "raw_title": "Ticket Anterior (Trilha)",
+      "description": "POC - vinculo com o ticket anterior da esteira",
+      "raw_description": "POC - vinculo com o ticket anterior da esteira",
+      "position": 9999,
+      "active": true,
+      "required": false,
+      "collapsed_for_agents": false,
+      "regexp_for_validation": null,
+      "title_in_portal": "Ticket Anterior (Trilha)",
+      "raw_title_in_portal": "Ticket Anterior (Trilha)",
+      "visible_in_portal": false,
+      "editable_in_portal": false,
+      "required_in_portal": false,
+      "agent_can_edit": true,
+      "tag": null,
+      "created_at": "2026-07-12T20:11:59Z",
+      "updated_at": "2026-07-12T20:11:59Z",
+      "removable": true,
+      "key": null,
+      "agent_description": null,
+      "raw_agent_description": null,
+      "relationship_target_type": "zen:ticket",
+      "relationship_filter": {
+        "all": [],
+        "any": []
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "PUT",
+  "path": "/api/v2/tickets/13.json",
+  "payload": {
+    "ticket": {
+      "status": "solved",
+      "assignee_id": 51242520206100,
+      "comment": {
+        "body": "Etapa concluida - POC.",
+        "public": false
+      }
+    }
+  }
+}

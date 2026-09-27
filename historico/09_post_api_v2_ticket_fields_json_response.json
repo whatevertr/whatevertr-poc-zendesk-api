@@ -1,0 +1,114 @@
+{
+  "status_code": 201,
+  "body": {
+    "ticket_field": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/ticket_fields/51262766882580.json",
+      "id": 51262766882580,
+      "type": "tagger",
+      "title": "Submotivo (N3)",
+      "raw_title": "Submotivo (N3)",
+      "description": "POC - submotivo nivel 3 (criticidade no nome)",
+      "raw_description": "POC - submotivo nivel 3 (criticidade no nome)",
+      "position": 9999,
+      "active": true,
+      "required": false,
+      "collapsed_for_agents": false,
+      "regexp_for_validation": null,
+      "title_in_portal": "Submotivo (N3)",
+      "raw_title_in_portal": "Submotivo (N3)",
+      "visible_in_portal": false,
+      "editable_in_portal": false,
+      "required_in_portal": false,
+      "agent_can_edit": true,
+      "tag": null,
+      "created_at": "2026-07-12T20:11:58Z",
+      "updated_at": "2026-07-12T20:11:58Z",
+      "removable": true,
+      "key": null,
+      "agent_description": null,
+      "raw_agent_description": null,
+      "custom_field_options": [
+        {
+          "id": 51262747076372,
+          "name": "Devolucao - Critico",
+          "raw_name": "Devolucao - Critico",
+          "value": "sub_devolucao_critico",
+          "default": false,
+          "allow_solving": true
+        },
+        {
+          "id": 51262747076500,
+          "name": "Devolucao - Padrao",
+          "raw_name": "Devolucao - Padrao",
+          "value": "sub_devolucao_padrao",
+          "default": false,
+          "allow_solving": true
+        },
+        {
+          "id": 51262747076628,
+          "name": "Coleta - Critico",
+          "raw_name": "Coleta - Critico",
+          "value": "sub_coleta_critico",
+          "default": false,
+          "allow_solving": true
+        },
+        {
+          "id": 51262747076756,
+          "name": "Coleta - Padrao",
+          "raw_name": "Coleta - Padrao",
+          "value": "sub_coleta_padrao",
+          "default": false,
+          "allow_solving": true
+        },
+        {
+          "id": 51262747076884,
+          "name": "NFD - Critico",
+          "raw_name": "NFD - Critico",
+          "value": "sub_nfd_critico",
+          "default": false,
+          "allow_solving": true
+        },
+        {
+          "id": 51262747077012,
+          "name": "NFD - Padrao",
+          "raw_name": "NFD - Padrao",
+          "value": "sub_nfd_padrao",
+          "default": false,
+          "allow_solving": true
+        },
+        {
+          "id": 51262747077140,
+          "name": "Estorno - Critico",
+          "raw_name": "Estorno - Critico",
+          "value": "sub_estorno_critico",
+          "default": false,
+          "allow_solving": true
+        },
+        {
+          "id": 51262747077268,
+          "name": "Estorno - Padrao",
+          "raw_name": "Estorno - Padrao",
+          "value": "sub_estorno_padrao",
+          "default": false,
+          "allow_solving": true
+        },
+        {
+          "id": 51262747077396,
+          "name": "Generico A - Padrao",
+          "raw_name": "Generico A - Padrao",
+          "value": "sub_generico_a_padrao",
+          "default": false,
+          "allow_solving": true
+        },
+        {
+          "id": 51262747077524,
+          "name": "Generico B - Padrao",
+          "raw_name": "Generico B - Padrao",
+          "value": "sub_generico_b_padrao",
+          "default": false,
+          "allow_solving": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "method": "POST",
+  "path": "/api/v2/ticket_fields.json",
+  "payload": {
+    "ticket_field": {
+      "type": "tagger",
+      "title": "Aprovacao Financeira (POC T9)",
+      "description": "Campo novo obrigatorio para teste de legado",
+      "required": true,
+      "required_in_portal": true,
+      "visible_in_portal": true,
+      "editable_in_portal": true,
+      "custom_field_options": [
+        {
+          "name": "Aprovado",
+          "value": "aprov_sim"
+        },
+        {
+          "name": "Reprovado",
+          "value": "aprov_nao"
+        }
+      ]
+    }
+  }
+}

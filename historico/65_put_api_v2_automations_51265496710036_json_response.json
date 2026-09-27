@@ -1,0 +1,55 @@
+{
+  "status_code": 200,
+  "body": {
+    "automation": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/automations/51265496710036.json",
+      "id": 51265496710036,
+      "title": "Solicitar índice de satisfação do cliente (automação do sistema)",
+      "active": false,
+      "updated_at": "2026-07-12T22:51:09Z",
+      "created_at": "2026-07-12T22:49:53Z",
+      "default": true,
+      "actions": [
+        {
+          "field": "notification_user",
+          "value": [
+            "requester_id",
+            "Solicitação #{{ticket.id}}: Qual a sua avaliação sobre o suporte recebido?",
+            "Olá, {{ticket.requester.name}},\n\nQueremos saber sua opinião sobre nosso atendimento ao cliente. Dedique alguns instantes para responder a seguinte pergunta clicando em um dos links abaixo:\n\n{{satisfaction.rating_section}}\n\nEste é um lembrete do assunto desta solicitação:\n\n{{ticket.comments_formatted}}\n"
+          ]
+        },
+        {
+          "field": "satisfaction_score",
+          "value": "offered"
+        }
+      ],
+      "conditions": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "less_than",
+            "value": "closed"
+          },
+          {
+            "field": "SOLVED",
+            "operator": "is",
+            "value": "24"
+          },
+          {
+            "field": "satisfaction_score",
+            "operator": "is",
+            "value": "unoffered"
+          },
+          {
+            "field": "ticket_is_public",
+            "operator": "is",
+            "value": "public"
+          }
+        ],
+        "any": []
+      },
+      "position": 10000,
+      "raw_title": "Solicitar índice de satisfação do cliente (automação do sistema)"
+    }
+  }
+}

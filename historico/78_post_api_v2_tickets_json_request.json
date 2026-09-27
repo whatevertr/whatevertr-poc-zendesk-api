@@ -1,0 +1,31 @@
+{
+  "method": "POST",
+  "path": "/api/v2/tickets.json",
+  "payload": {
+    "ticket": {
+      "subject": "POC T8 casca - Devolucao (ramificacao paralela)",
+      "comment": {
+        "body": "Solicito devolucao com coleta e NFD em paralelo. (dado sintetico POC)",
+        "author_id": 51262855326996,
+        "public": true
+      },
+      "requester_id": 51262855326996,
+      "priority": "normal",
+      "ticket_form_id": 51262768082068,
+      "status": "pending",
+      "tags": [
+        "trilha_casca"
+      ],
+      "custom_fields": [
+        {
+          "id": 51262766832660,
+          "value": "motivo_devolucao"
+        },
+        {
+          "id": 51262766882580,
+          "value": "sub_devolucao_padrao"
+        }
+      ]
+    }
+  }
+}

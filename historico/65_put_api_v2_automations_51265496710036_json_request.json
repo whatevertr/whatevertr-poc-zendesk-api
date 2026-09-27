@@ -1,0 +1,10 @@
+{
+  "method": "PUT",
+  "path": "/api/v2/automations/51265496710036.json",
+  "payload": {
+    "automation": {
+      "active": false
+    }
+  },
+  "nota": null
+}

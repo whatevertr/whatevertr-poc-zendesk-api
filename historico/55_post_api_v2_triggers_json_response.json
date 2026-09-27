@@ -1,0 +1,48 @@
+{
+  "status_code": 201,
+  "body": {
+    "trigger": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/triggers/51265215603092.json",
+      "id": 51265215603092,
+      "title": "Trava POC - Estorno fora da Celula Financeiro (corretiva)",
+      "active": true,
+      "updated_at": "2026-07-12T22:31:54Z",
+      "created_at": "2026-07-12T22:31:54Z",
+      "default": false,
+      "actions": [
+        {
+          "field": "group_id",
+          "value": "51262730328340"
+        },
+        {
+          "field": "current_tags",
+          "value": "roteamento_corrigido"
+        }
+      ],
+      "conditions": {
+        "all": [
+          {
+            "field": "update_type",
+            "operator": "is",
+            "value": "Change"
+          },
+          {
+            "field": "custom_fields_51262766832660",
+            "operator": "is",
+            "value": "motivo_estorno"
+          },
+          {
+            "field": "group_id",
+            "operator": "is_not",
+            "value": "51262730328340"
+          }
+        ],
+        "any": []
+      },
+      "description": null,
+      "position": 13,
+      "raw_title": "Trava POC - Estorno fora da Celula Financeiro (corretiva)",
+      "category_id": "51242539291924"
+    }
+  }
+}

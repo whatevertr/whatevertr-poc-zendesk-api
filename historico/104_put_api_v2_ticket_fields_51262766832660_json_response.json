@@ -1,0 +1,82 @@
+{
+  "status_code": 200,
+  "body": {
+    "ticket_field": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/ticket_fields/51262766832660.json",
+      "id": 51262766832660,
+      "type": "tagger",
+      "title": "Motivo (N2)",
+      "raw_title": "Motivo (N2)",
+      "description": "POC - motivo nivel 2",
+      "raw_description": "POC - motivo nivel 2",
+      "position": 9999,
+      "active": true,
+      "required": false,
+      "collapsed_for_agents": false,
+      "regexp_for_validation": null,
+      "title_in_portal": "Motivo (N2)",
+      "raw_title_in_portal": "Motivo (N2)",
+      "visible_in_portal": false,
+      "editable_in_portal": false,
+      "required_in_portal": false,
+      "agent_can_edit": true,
+      "tag": null,
+      "created_at": "2026-07-12T20:11:57Z",
+      "updated_at": "2026-07-17T02:21:09Z",
+      "removable": true,
+      "key": null,
+      "agent_description": null,
+      "raw_agent_description": null,
+      "custom_field_options": [
+        {
+          "id": 51262747038740,
+          "name": "Devolucao",
+          "raw_name": "Devolucao",
+          "value": "motivo_devolucao",
+          "default": false,
+          "allow_solving": true
+        },
+        {
+          "id": 51262747038868,
+          "name": "Coleta",
+          "raw_name": "Coleta",
+          "value": "motivo_coleta",
+          "default": false,
+          "allow_solving": true
+        },
+        {
+          "id": 51262747038996,
+          "name": "NFD",
+          "raw_name": "NFD",
+          "value": "motivo_nfd",
+          "default": false,
+          "allow_solving": true
+        },
+        {
+          "id": 51262747039124,
+          "name": "Estorno",
+          "raw_name": "Estorno",
+          "value": "motivo_estorno",
+          "default": false,
+          "allow_solving": true
+        },
+        {
+          "id": 51262747039252,
+          "name": "Motivo Generico A",
+          "raw_name": "Motivo Generico A",
+          "value": "motivo_generico_a",
+          "default": false,
+          "allow_solving": true
+        },
+        {
+          "id": 51262747039380,
+          "name": "Motivo Generico B",
+          "raw_name": "Motivo Generico B",
+          "value": "motivo_generico_b",
+          "default": false,
+          "allow_solving": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "status_code": 201,
+  "body": {
+    "trigger": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/triggers/51262740366996.json",
+      "id": 51262740366996,
+      "title": "Roteamento POC - motivo_devolucao -> Celula SAC",
+      "active": true,
+      "updated_at": "2026-07-12T20:12:59Z",
+      "created_at": "2026-07-12T20:12:59Z",
+      "default": false,
+      "actions": [
+        {
+          "field": "group_id",
+          "value": "51262745235220"
+        }
+      ],
+      "conditions": {
+        "all": [
+          {
+            "field": "update_type",
+            "operator": "is",
+            "value": "Create"
+          },
+          {
+            "field": "custom_fields_51262766832660",
+            "operator": "is",
+            "value": "motivo_devolucao"
+          }
+        ],
+        "any": []
+      },
+      "description": null,
+      "position": 9,
+      "raw_title": "Roteamento POC - motivo_devolucao -> Celula SAC",
+      "category_id": "51242539291924"
+    }
+  }
+}

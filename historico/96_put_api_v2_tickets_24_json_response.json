@@ -1,0 +1,17 @@
+{
+  "status_code": 422,
+  "body": {
+    "error": "RecordInvalid",
+    "description": "Record validation errors",
+    "details": {
+      "base": [
+        {
+          "description": "Aprovacao Financeira (POC T9): é necessário(a) para resolver um ticket",
+          "error": null,
+          "ticket_field_id": 51441453381396,
+          "ticket_field_type": "FieldTagger"
+        }
+      ]
+    }
+  }
+}

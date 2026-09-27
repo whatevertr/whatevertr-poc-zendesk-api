@@ -1,0 +1,10 @@
+{
+  "method": "PUT",
+  "path": "/api/v2/tickets/16.json",
+  "payload": {
+    "ticket": {
+      "status": "solved"
+    }
+  },
+  "nota": null
+}

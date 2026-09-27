@@ -1,0 +1,41 @@
+{
+  "method": "POST",
+  "path": "/api/v2/triggers.json",
+  "payload": {
+    "trigger": {
+      "title": "CSAT POC - oferecer pesquisa apenas na casca (ao resolver)",
+      "conditions": {
+        "all": [
+          {
+            "field": "update_type",
+            "operator": "is",
+            "value": "Change"
+          },
+          {
+            "field": "status",
+            "operator": "value",
+            "value": "solved"
+          },
+          {
+            "field": "current_tags",
+            "operator": "includes",
+            "value": "trilha_casca"
+          },
+          {
+            "field": "current_tags",
+            "operator": "not_includes",
+            "value": "etapa_trilha"
+          }
+        ],
+        "any": []
+      },
+      "actions": [
+        {
+          "field": "satisfaction_score",
+          "value": "offered"
+        }
+      ]
+    }
+  },
+  "nota": null
+}

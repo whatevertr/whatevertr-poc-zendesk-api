@@ -1,0 +1,15 @@
+{
+  "method": "PUT",
+  "path": "/api/v2/tickets/update_many.json?ids=24,25,26,27,28",
+  "payload": {
+    "ticket": {
+      "group_id": 51262730328340,
+      "custom_fields": [
+        {
+          "id": 51441453381396,
+          "value": "aprov_sim"
+        }
+      ]
+    }
+  }
+}

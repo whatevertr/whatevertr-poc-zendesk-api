@@ -1,0 +1,34 @@
+{
+  "method": "POST",
+  "path": "/api/v2/tickets.json",
+  "payload": {
+    "ticket": {
+      "subject": "POC T8 etapa P1 - Coleta (paralela)",
+      "comment": {
+        "body": "Etapa paralela da trilha. POC.",
+        "author_id": 51242520206100,
+        "public": true
+      },
+      "requester_id": 51242520206100,
+      "priority": "normal",
+      "ticket_form_id": 51262768082068,
+      "tags": [
+        "etapa_trilha"
+      ],
+      "custom_fields": [
+        {
+          "id": 51262766832660,
+          "value": "motivo_coleta"
+        },
+        {
+          "id": 51262766882580,
+          "value": "sub_coleta_padrao"
+        },
+        {
+          "id": 51262735029524,
+          "value": "21"
+        }
+      ]
+    }
+  }
+}

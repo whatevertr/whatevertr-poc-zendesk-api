@@ -1,0 +1,40 @@
+{
+  "method": "POST",
+  "path": "/api/v2/views.json",
+  "payload": {
+    "view": {
+      "title": "POC View - Estorno Padrao (Financeiro)",
+      "active": true,
+      "conditions": {
+        "all": [
+          {
+            "field": "group_id",
+            "operator": "is",
+            "value": "51262730328340"
+          },
+          {
+            "field": "custom_fields_51262766882580",
+            "operator": "is",
+            "value": "sub_estorno_padrao"
+          },
+          {
+            "field": "status",
+            "operator": "less_than",
+            "value": "solved"
+          }
+        ],
+        "any": []
+      },
+      "output": {
+        "columns": [
+          "subject",
+          "priority",
+          "created",
+          51262766882580
+        ],
+        "sort_by": "priority",
+        "sort_order": "desc"
+      }
+    }
+  }
+}

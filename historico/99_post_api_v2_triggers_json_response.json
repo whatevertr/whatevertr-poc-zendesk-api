@@ -1,0 +1,39 @@
+{
+  "status_code": 201,
+  "body": {
+    "trigger": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/triggers/51441473399444.json",
+      "id": 51441473399444,
+      "title": "Roteamento POC T9 - generico A -> Logistica",
+      "active": true,
+      "updated_at": "2026-07-17T02:20:42Z",
+      "created_at": "2026-07-17T02:20:42Z",
+      "default": false,
+      "actions": [
+        {
+          "field": "group_id",
+          "value": "51262745284372"
+        }
+      ],
+      "conditions": {
+        "all": [
+          {
+            "field": "update_type",
+            "operator": "is",
+            "value": "Create"
+          },
+          {
+            "field": "custom_fields_51262766832660",
+            "operator": "is",
+            "value": "motivo_generico_a"
+          }
+        ],
+        "any": []
+      },
+      "description": null,
+      "position": 17,
+      "raw_title": "Roteamento POC T9 - generico A -> Logistica",
+      "category_id": "51242539291924"
+    }
+  }
+}

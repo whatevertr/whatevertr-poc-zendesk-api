@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/v2/ticket_fields.json",
+  "payload": {
+    "ticket_field": {
+      "type": "lookup",
+      "title": "Ticket Anterior (Trilha)",
+      "description": "POC - vinculo com o ticket anterior da esteira",
+      "relationship_target_type": "zen:ticket",
+      "relationship_filter": {
+        "all": [],
+        "any": []
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "method": "PUT",
+  "path": "/api/v2/business_hours/schedules/51262745177364/workweek.json",
+  "payload": {
+    "workweek": {
+      "intervals": [
+        {
+          "start_time": 2880,
+          "end_time": 3480
+        },
+        {
+          "start_time": 3360,
+          "end_time": 3960
+        },
+        {
+          "start_time": 4800,
+          "end_time": 5400
+        },
+        {
+          "start_time": 6240,
+          "end_time": 6840
+        },
+        {
+          "start_time": 7680,
+          "end_time": 8280
+        }
+      ]
+    }
+  }
+}

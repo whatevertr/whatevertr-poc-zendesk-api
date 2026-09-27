@@ -1,0 +1,12 @@
+{
+  "method": "POST",
+  "path": "/api/v2/users.json",
+  "payload": {
+    "user": {
+      "name": "Cliente Teste POC",
+      "email": "cliente.teste.poc_AT_example.com",
+      "role": "end-user",
+      "verified": true
+    }
+  }
+}

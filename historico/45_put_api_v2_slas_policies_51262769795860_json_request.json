@@ -1,0 +1,58 @@
+{
+  "method": "PUT",
+  "path": "/api/v2/slas/policies/51262769795860.json",
+  "payload": {
+    "sla_policy": {
+      "policy_metrics": [
+        {
+          "priority": "low",
+          "metric": "first_reply_time",
+          "target": 480,
+          "business_hours": true
+        },
+        {
+          "priority": "normal",
+          "metric": "first_reply_time",
+          "target": 480,
+          "business_hours": true
+        },
+        {
+          "priority": "high",
+          "metric": "first_reply_time",
+          "target": 480,
+          "business_hours": true
+        },
+        {
+          "priority": "urgent",
+          "metric": "first_reply_time",
+          "target": 480,
+          "business_hours": true
+        },
+        {
+          "priority": "low",
+          "metric": "requester_wait_time",
+          "target": 480,
+          "business_hours": true
+        },
+        {
+          "priority": "normal",
+          "metric": "requester_wait_time",
+          "target": 480,
+          "business_hours": true
+        },
+        {
+          "priority": "high",
+          "metric": "requester_wait_time",
+          "target": 480,
+          "business_hours": true
+        },
+        {
+          "priority": "urgent",
+          "metric": "requester_wait_time",
+          "target": 480,
+          "business_hours": true
+        }
+      ]
+    }
+  }
+}

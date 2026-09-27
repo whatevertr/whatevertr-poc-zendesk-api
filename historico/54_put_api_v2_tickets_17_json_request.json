@@ -1,0 +1,12 @@
+{
+  "method": "PUT",
+  "path": "/api/v2/tickets/17.json",
+  "payload": {
+    "ticket": {
+      "comment": {
+        "body": "Comentario publico de teste de vazamento. POC.",
+        "public": true
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "method": "PUT",
+  "path": "/api/v2/tickets/20.json",
+  "payload": {
+    "ticket": {
+      "group_id": 51262745235220
+    }
+  }
+}

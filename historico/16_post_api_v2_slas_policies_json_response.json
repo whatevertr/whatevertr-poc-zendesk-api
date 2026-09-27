@@ -1,0 +1,75 @@
+{
+  "status_code": 201,
+  "body": {
+    "sla_policy": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/slas/policies/51262738779540.json",
+      "id": 51262738779540,
+      "title": "SLA Padrao 24h uteis",
+      "description": "POC - submotivos padrao",
+      "position": 3,
+      "filter": {
+        "all": [],
+        "any": [
+          {
+            "field": "ticket_fields_51262766882580",
+            "operator": "is",
+            "value": "51262747076500"
+          },
+          {
+            "field": "ticket_fields_51262766882580",
+            "operator": "is",
+            "value": "51262747076756"
+          },
+          {
+            "field": "ticket_fields_51262766882580",
+            "operator": "is",
+            "value": "51262747077012"
+          },
+          {
+            "field": "ticket_fields_51262766882580",
+            "operator": "is",
+            "value": "51262747077396"
+          },
+          {
+            "field": "ticket_fields_51262766882580",
+            "operator": "is",
+            "value": "51262747077524"
+          }
+        ]
+      },
+      "policy_metrics": [
+        {
+          "priority": "low",
+          "metric": "first_reply_time",
+          "target": 1440,
+          "business_hours": true,
+          "target_in_seconds": 86400
+        },
+        {
+          "priority": "normal",
+          "metric": "first_reply_time",
+          "target": 1440,
+          "business_hours": true,
+          "target_in_seconds": 86400
+        },
+        {
+          "priority": "high",
+          "metric": "first_reply_time",
+          "target": 1440,
+          "business_hours": true,
+          "target_in_seconds": 86400
+        },
+        {
+          "priority": "urgent",
+          "metric": "first_reply_time",
+          "target": 1440,
+          "business_hours": true,
+          "target_in_seconds": 86400
+        }
+      ],
+      "created_at": "2026-07-12T20:12:47Z",
+      "updated_at": "2026-07-12T20:12:47Z",
+      "metric_settings": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "method": "PUT",
+  "path": "/api/v2/ticket_fields/51262766832660.json",
+  "payload": {
+    "ticket_field": {
+      "title": "Motivo (N2) RENOMEADO T9"
+    }
+  }
+}

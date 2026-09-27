@@ -1,0 +1,50 @@
+{
+  "status_code": 201,
+  "body": {
+    "ticket_field": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/ticket_fields/51262750652052.json",
+      "id": 51262750652052,
+      "type": "tagger",
+      "title": "Submotivo Estorno (N3 condicional demo)",
+      "raw_title": "Submotivo Estorno (N3 condicional demo)",
+      "description": "POC - demo de filtragem de opcoes por campo dedicado condicional",
+      "raw_description": "POC - demo de filtragem de opcoes por campo dedicado condicional",
+      "position": 9999,
+      "active": true,
+      "required": false,
+      "collapsed_for_agents": false,
+      "regexp_for_validation": null,
+      "title_in_portal": "Submotivo Estorno (N3 condicional demo)",
+      "raw_title_in_portal": "Submotivo Estorno (N3 condicional demo)",
+      "visible_in_portal": false,
+      "editable_in_portal": false,
+      "required_in_portal": false,
+      "agent_can_edit": true,
+      "tag": null,
+      "created_at": "2026-07-12T20:11:58Z",
+      "updated_at": "2026-07-12T20:11:58Z",
+      "removable": true,
+      "key": null,
+      "agent_description": null,
+      "raw_agent_description": null,
+      "custom_field_options": [
+        {
+          "id": 51262750651796,
+          "name": "Estorno - Critico (demo)",
+          "raw_name": "Estorno - Critico (demo)",
+          "value": "demo_estorno_critico",
+          "default": false,
+          "allow_solving": true
+        },
+        {
+          "id": 51262750651924,
+          "name": "Estorno - Padrao (demo)",
+          "raw_name": "Estorno - Padrao (demo)",
+          "value": "demo_estorno_padrao",
+          "default": false,
+          "allow_solving": true
+        }
+      ]
+    }
+  }
+}

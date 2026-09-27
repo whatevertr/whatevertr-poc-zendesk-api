@@ -1,0 +1,11 @@
+{
+  "method": "POST",
+  "path": "/api/v2/tickets/14/satisfaction_rating.json",
+  "payload": {
+    "satisfaction_rating": {
+      "score": "good",
+      "comment": "Atendimento resolvido. Avaliacao de teste POC (dado sintetico)."
+    }
+  },
+  "nota": "autenticacao: token OAuth OAuth impersonate [REDACTED] + X-On-Behalf-Of cliente"
+}

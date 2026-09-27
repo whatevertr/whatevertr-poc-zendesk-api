@@ -1,0 +1,120 @@
+{
+  "status_code": 201,
+  "body": {
+    "view": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/views/51441438099348.json",
+      "id": 51441438099348,
+      "title": "POC View - Estorno Critico (Financeiro)",
+      "active": true,
+      "updated_at": "2026-07-17T02:19:14Z",
+      "created_at": "2026-07-17T02:19:14Z",
+      "default": false,
+      "position": 10002,
+      "description": null,
+      "execution": {
+        "group_by": "status",
+        "group_order": "desc",
+        "sort_by": "created",
+        "sort_order": "desc",
+        "group": {
+          "id": "status",
+          "title": "Categoria do status",
+          "filterable": true,
+          "sortable": true,
+          "order": "desc"
+        },
+        "sort": {
+          "id": "created",
+          "title": "Data da solicitação",
+          "filterable": false,
+          "sortable": true,
+          "order": "desc"
+        },
+        "columns": [
+          {
+            "id": "subject",
+            "title": "Assunto",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "requester",
+            "title": "Solicitante",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": 51262766832660,
+            "title": "Motivo (N2)",
+            "type": "tagger",
+            "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/ticket_fields/51262766832660.json",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": 51262766882580,
+            "title": "Submotivo (N3)",
+            "type": "tagger",
+            "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/ticket_fields/51262766882580.json",
+            "filterable": true,
+            "sortable": true
+          }
+        ],
+        "fields": [
+          {
+            "id": "subject",
+            "title": "Assunto",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "requester",
+            "title": "Solicitante",
+            "filterable": true,
+            "sortable": true
+          }
+        ],
+        "custom_fields": [
+          {
+            "id": 51262766832660,
+            "title": "Motivo (N2)",
+            "type": "tagger",
+            "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/ticket_fields/51262766832660.json",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": 51262766882580,
+            "title": "Submotivo (N3)",
+            "type": "tagger",
+            "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/ticket_fields/51262766882580.json",
+            "filterable": true,
+            "sortable": true
+          }
+        ]
+      },
+      "conditions": {
+        "all": [
+          {
+            "field": "group_id",
+            "operator": "is",
+            "value": "51262730328340"
+          },
+          {
+            "field": "custom_fields_51262766882580",
+            "operator": "is",
+            "value": "sub_estorno_critico"
+          },
+          {
+            "field": "status",
+            "operator": "less_than",
+            "value": "solved"
+          }
+        ],
+        "any": []
+      },
+      "restriction": null,
+      "raw_title": "POC View - Estorno Critico (Financeiro)"
+    }
+  }
+}

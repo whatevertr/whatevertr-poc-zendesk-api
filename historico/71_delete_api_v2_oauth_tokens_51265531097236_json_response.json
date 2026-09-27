@@ -1,0 +1,6 @@
+{
+  "status_code": 204,
+  "body": {
+    "note": "revogacao do token OAuth descartavel da POC"
+  }
+}

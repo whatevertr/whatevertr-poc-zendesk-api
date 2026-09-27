@@ -1,0 +1,18 @@
+{
+  "method": "POST",
+  "path": "/api/v2/custom_roles.json",
+  "payload": {
+    "custom_role": {
+      "name": "Gestor de Celula (POC T9)",
+      "description": "Papel nao-admin com gestao de membros de grupo e views - teste de autonomia",
+      "configuration": {
+        "group_access": true,
+        "view_access": "full",
+        "ticket_access": "within-groups",
+        "manage_business_rules": false,
+        "ticket_editing": true,
+        "ticket_comment_access": "public"
+      }
+    }
+  }
+}

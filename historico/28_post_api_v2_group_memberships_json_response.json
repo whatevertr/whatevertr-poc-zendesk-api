@@ -1,0 +1,14 @@
+{
+  "status_code": 201,
+  "body": {
+    "group_membership": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/group_memberships/51262870053396.json",
+      "id": 51262870053396,
+      "user_id": 51242520206100,
+      "group_id": 51262745284372,
+      "default": false,
+      "created_at": "2026-07-12T20:16:54Z",
+      "updated_at": "2026-07-12T20:16:54Z"
+    }
+  }
+}

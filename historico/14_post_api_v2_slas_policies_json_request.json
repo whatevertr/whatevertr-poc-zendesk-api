@@ -1,0 +1,62 @@
+{
+  "method": "POST",
+  "path": "/api/v2/slas/policies.json",
+  "payload": {
+    "sla_policy": {
+      "title": "SLA Critico 4h uteis",
+      "description": "POC - submotivos criticos",
+      "position": 1,
+      "filter": {
+        "all": [],
+        "any": [
+          {
+            "field": "custom_fields_51262766882580",
+            "operator": "is",
+            "value": "sub_devolucao_critico"
+          },
+          {
+            "field": "custom_fields_51262766882580",
+            "operator": "is",
+            "value": "sub_coleta_critico"
+          },
+          {
+            "field": "custom_fields_51262766882580",
+            "operator": "is",
+            "value": "sub_nfd_critico"
+          },
+          {
+            "field": "custom_fields_51262766882580",
+            "operator": "is",
+            "value": "sub_estorno_critico"
+          }
+        ]
+      },
+      "policy_metrics": [
+        {
+          "priority": "low",
+          "metric": "first_reply_time",
+          "target": 240,
+          "business_hours": true
+        },
+        {
+          "priority": "normal",
+          "metric": "first_reply_time",
+          "target": 240,
+          "business_hours": true
+        },
+        {
+          "priority": "high",
+          "metric": "first_reply_time",
+          "target": 240,
+          "business_hours": true
+        },
+        {
+          "priority": "urgent",
+          "metric": "first_reply_time",
+          "target": 240,
+          "business_hours": true
+        }
+      ]
+    }
+  }
+}

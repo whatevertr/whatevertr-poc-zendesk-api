@@ -1,0 +1,12 @@
+{
+  "method": "PUT",
+  "path": "/api/v2/tickets/24.json",
+  "payload": {
+    "ticket": {
+      "comment": {
+        "body": "Comentario com campo obrigatorio vazio (teste 1b).",
+        "public": false
+      }
+    }
+  }
+}

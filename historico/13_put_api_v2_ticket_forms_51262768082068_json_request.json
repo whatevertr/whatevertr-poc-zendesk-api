@@ -1,0 +1,23 @@
+{
+  "method": "PUT",
+  "path": "/api/v2/ticket_forms/51262768082068.json",
+  "payload": {
+    "ticket_form": {
+      "agent_conditions": [
+        {
+          "parent_field_id": 51262766832660,
+          "value": "motivo_estorno",
+          "child_fields": [
+            {
+              "id": 51262750652052,
+              "is_required": false,
+              "required_on_statuses": {
+                "type": "NO_STATUSES"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

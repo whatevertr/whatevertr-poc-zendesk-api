@@ -1,0 +1,257 @@
+{
+  "status_code": 200,
+  "body": {
+    "ticket": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/tickets/23.json",
+      "id": 23,
+      "external_id": null,
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      },
+      "created_at": "2026-07-12T23:19:45Z",
+      "updated_at": "2026-07-12T23:20:35Z",
+      "generated_timestamp": 1783898392,
+      "type": null,
+      "subject": "POC T8 etapa P2 - NFD (paralela)",
+      "raw_subject": "POC T8 etapa P2 - NFD (paralela)",
+      "description": "Etapa paralela da trilha. POC.",
+      "priority": "normal",
+      "status": "solved",
+      "recipient": null,
+      "requester_id": 51242520206100,
+      "submitter_id": 51242520206100,
+      "assignee_id": 51242520206100,
+      "organization_id": 51242539275156,
+      "group_id": 51262745284372,
+      "collaborator_ids": [],
+      "follower_ids": [],
+      "email_cc_ids": [],
+      "forum_topic_id": null,
+      "problem_id": null,
+      "has_incidents": false,
+      "is_public": true,
+      "due_at": null,
+      "tags": [
+        "etapa_trilha",
+        "motivo_nfd",
+        "sub_nfd_padrao"
+      ],
+      "custom_fields": [
+        {
+          "id": 51242506601620,
+          "value": "topic__order__new__place"
+        },
+        {
+          "id": 51242506608020,
+          "value": "topic_confidence__low"
+        },
+        {
+          "id": 51242506612244,
+          "value": "sentiment__neutral"
+        },
+        {
+          "id": 51242506642708,
+          "value": "language__pt"
+        },
+        {
+          "id": 51242506644500,
+          "value": "language_confidence__low"
+        },
+        {
+          "id": 51242516432788,
+          "value": "sentiment_confidence__high"
+        },
+        {
+          "id": 51242538833684,
+          "value": null
+        },
+        {
+          "id": 51242539407764,
+          "value": null
+        },
+        {
+          "id": 51242539410452,
+          "value": null
+        },
+        {
+          "id": 51242539412116,
+          "value": null
+        },
+        {
+          "id": 51242539584532,
+          "value": null
+        },
+        {
+          "id": 51242552329364,
+          "value": null
+        },
+        {
+          "id": 51242552329620,
+          "value": null
+        },
+        {
+          "id": 51242552330004,
+          "value": null
+        },
+        {
+          "id": 51242552947092,
+          "value": null
+        },
+        {
+          "id": 51242552964500,
+          "value": null
+        },
+        {
+          "id": 51262735029524,
+          "value": "21"
+        },
+        {
+          "id": 51262750652052,
+          "value": null
+        },
+        {
+          "id": 51262766832660,
+          "value": "motivo_nfd"
+        },
+        {
+          "id": 51262766882580,
+          "value": "sub_nfd_padrao"
+        }
+      ],
+      "satisfaction_rating": {
+        "score": "unoffered"
+      },
+      "sharing_agreement_ids": [],
+      "custom_status_id": 51242539267732,
+      "encoded_id": "N2PW1Z-KK1DN",
+      "fields": [
+        {
+          "id": 51242506601620,
+          "value": "topic__order__new__place"
+        },
+        {
+          "id": 51242506608020,
+          "value": "topic_confidence__low"
+        },
+        {
+          "id": 51242506612244,
+          "value": "sentiment__neutral"
+        },
+        {
+          "id": 51242506642708,
+          "value": "language__pt"
+        },
+        {
+          "id": 51242506644500,
+          "value": "language_confidence__low"
+        },
+        {
+          "id": 51242516432788,
+          "value": "sentiment_confidence__high"
+        },
+        {
+          "id": 51242538833684,
+          "value": null
+        },
+        {
+          "id": 51242539407764,
+          "value": null
+        },
+        {
+          "id": 51242539410452,
+          "value": null
+        },
+        {
+          "id": 51242539412116,
+          "value": null
+        },
+        {
+          "id": 51242539584532,
+          "value": null
+        },
+        {
+          "id": 51242552329364,
+          "value": null
+        },
+        {
+          "id": 51242552329620,
+          "value": null
+        },
+        {
+          "id": 51242552330004,
+          "value": null
+        },
+        {
+          "id": 51242552947092,
+          "value": null
+        },
+        {
+          "id": 51242552964500,
+          "value": null
+        },
+        {
+          "id": 51262735029524,
+          "value": "21"
+        },
+        {
+          "id": 51262750652052,
+          "value": null
+        },
+        {
+          "id": 51262766832660,
+          "value": "motivo_nfd"
+        },
+        {
+          "id": 51262766882580,
+          "value": "sub_nfd_padrao"
+        }
+      ],
+      "followup_ids": [],
+      "ticket_form_id": 51262768082068,
+      "brand_id": 51242552746132,
+      "allow_channelback": false,
+      "allow_attachments": true,
+      "from_messaging_channel": false,
+      "support_type": "agent"
+    },
+    "audit": {
+      "id": 51265978656148,
+      "ticket_id": 23,
+      "created_at": "2026-07-12T23:20:35Z",
+      "author_id": 51242520206100,
+      "metadata": {
+        "system": { "_removido": "metadados de execucao (origem da requisicao) removidos para publicacao" },
+        "custom": {}
+      },
+      "events": [
+        {
+          "id": 51265978656276,
+          "type": "Change",
+          "value": "solved",
+          "field_name": "status",
+          "previous_value": "open"
+        },
+        {
+          "id": 51265978656404,
+          "type": "Change",
+          "value": "51242539267732",
+          "field_name": "custom_status_id",
+          "previous_value": "51242552765844"
+        }
+      ],
+      "via": {
+        "channel": "api",
+        "source": {
+          "from": {},
+          "to": {},
+          "rel": null
+        }
+      }
+    }
+  }
+}

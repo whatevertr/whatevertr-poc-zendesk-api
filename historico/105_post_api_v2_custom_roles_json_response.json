@@ -1,0 +1,9 @@
+{
+  "status_code": 402,
+  "body": {
+    "error": {
+      "title": "Payment Required",
+      "message": "Access to this API is restricted. Please contact the account owner of this help desk for further help."
+    }
+  }
+}

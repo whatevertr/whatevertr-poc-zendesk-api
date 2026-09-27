@@ -1,0 +1,16 @@
+{
+  "status_code": 200,
+  "body": {
+    "group": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/groups/51262745284372.json",
+      "id": 51262745284372,
+      "is_public": true,
+      "name": "Celula Logistica",
+      "description": "POC taxonomia - celula Celula Logistica",
+      "default": false,
+      "deleted": false,
+      "created_at": "2026-07-12T20:11:21Z",
+      "updated_at": "2026-07-17T02:21:08Z"
+    }
+  }
+}

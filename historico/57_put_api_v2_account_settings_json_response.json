@@ -1,0 +1,523 @@
+{
+  "status_code": 200,
+  "body": {
+    "settings": {
+      "branding": {
+        "header_color": "03363D",
+        "page_background_color": "333333",
+        "tab_background_color": "7FA239",
+        "text_color": "FFFFFF",
+        "header_logo_url": null,
+        "favicon_url": null
+      },
+      "apps": {
+        "use": true,
+        "create_private": true,
+        "create_public": false
+      },
+      "tickets": {
+        "agent_ticket_deletion": false,
+        "list_newest_comments_first": true,
+        "collaboration": false,
+        "private_attachments": false,
+        "email_attachments": false,
+        "agent_collision": false,
+        "tagging": true,
+        "list_empty_views": true,
+        "comments_public_by_default": true,
+        "is_first_comment_private_enabled": true,
+        "maximum_personal_views_to_list": 10,
+        "status_hold": false,
+        "markdown_ticket_comments": false,
+        "rich_text_comments": true,
+        "default_to_draft_mode": false,
+        "emoji_autocompletion": true,
+        "has_color_text": true,
+        "assign_tickets_upon_solve": true,
+        "allow_group_reset": true,
+        "assign_default_organization": true,
+        "messaging_transcript_public": true,
+        "app_shortcuts_context_panel_enabled": true,
+        "auto_translation_enabled": false,
+        "agent_invitation_enabled": true,
+        "chat_sla_enablement": false,
+        "modern_ticket_reassignment": false,
+        "show_modern_ticket_reassignment": false,
+        "default_solved_ticket_reassignment_strategy": "legacy",
+        "accepted_new_collaboration_tos": false,
+        "follower_and_email_cc_collaborations": true,
+        "auto_updated_ccs_followers_rules": false,
+        "agent_can_change_requester": true,
+        "comment_email_ccs_allowed": true,
+        "ticket_followers_allowed": true,
+        "ticket_auto_tagging": false,
+        "end_user_attachments": true,
+        "copy_original_assignee_and_group_to_followup": false,
+        "ccs_requester_excluded_public_comments": false,
+        "bcc_archive_address": null,
+        "suspended_ticket_notification": {
+          "frequency": 0,
+          "email_list": ""
+        },
+        "light_agent_email_ccs_allowed": false,
+        "agent_email_ccs_become_followers": true,
+        "using_skill_based_routing": false,
+        "custom_statuses_enabled": true,
+        "modify_closed_tickets_customer_setting": false,
+        "help_center_enabled": false,
+        "display_fcp_setting": false,
+        "ocb_messaging_enabled": true,
+        "native_messaging_enabled": true,
+        "bcc_archiving_available": false,
+        "bcc_archiving_enabled": false,
+        "ticket_tags_via_widget_enabled": false,
+        "trial": true,
+        "part_of_new_collaboration_eap_and_accepted_tos": false,
+        "accepted_tos_but_new_collaboration_disabled": false,
+        "third_party_end_user_public_comments_setting": false,
+        "cc_blacklist": "",
+        "collaborators_settable_in_help_center": false,
+        "ticket_tags_via_widget": "0",
+        "ocb_enabled": true,
+        "reengagement": false,
+        "third_party_end_user_public_comments": false,
+        "lockdown_enabled": false,
+        "email_comments_public": true,
+        "render_custom_uri_hyperlinks": "",
+        "ticket_id_sequence": 21,
+        "follower_subject_template": "{{ticket.title}}",
+        "follower_email_template": "Você é um seguidor nesta solicitação ({{ticket.id}}). {{ticket.follower_reply_type_message}}\n\n{{ticket.latest_comment_html}}",
+        "ticket_email_ccs_suspension_threshold": 48,
+        "messaging_enabled": true,
+        "ccs_followers_rules_update_required": true,
+        "ccs_followers_no_rollback": true,
+        "sunco_private_attachments_enabled": true,
+        "only_allowed_attachment_file_types": "recommended",
+        "only_allowed_attachment_file_types_agreement": "unset",
+        "custom_allowed_attachment_file_types_list": null,
+        "attachment_public_expiration": true,
+        "attachment_public_duration": 24,
+        "private_end_user_attachments": true
+      },
+      "agents": {
+        "agent_workspace": true,
+        "focus_mode": false,
+        "aw_self_serve_migration_enabled": true,
+        "aw_auto_activation_timestamp": null,
+        "aw_auto_activation_status": 0,
+        "aw_prevent_opt_out": true,
+        "agent_as_a_requester": "private-groups",
+        "spell_checker_enabled": true,
+        "idle_timeout_enabled": false,
+        "agent_home": true,
+        "split_view_enabled": false,
+        "split_view_tos_accepted": false,
+        "dark_mode_agent_workspace": true,
+        "dark_mode_terms_and_conditions_accepted": false,
+        "unified_navigation_enabled": false,
+        "unified_navigation_terms_and_conditions_accepted": false,
+        "ai_async_comment_translations_eap_enabled": false,
+        "ai_translation_disclosure_enabled": false,
+        "example_eap_tos_accepted": false,
+        "example_eap_enabled": false,
+        "explore_zra_monitoring_assistant_eap_tos_accepted": false,
+        "explore_zra_monitoring_assistant_eap_enabled": false,
+        "it_asset_management_eap_tos_accepted": false,
+        "it_asset_management_eap_enabled": false,
+        "iap_mcp_connections_home_eap_tos_accepted": false,
+        "iap_mcp_connections_home_eap_enabled": false,
+        "voice_ai_agents_eap_tos_accepted": false,
+        "voice_ai_agents_eap_enabled": false,
+        "hyperarc_eap_tos_accepted": false,
+        "hyperarc_eap_enabled": false,
+        "hyperarc_cohort1_eap_tos_accepted": false,
+        "hyperarc_cohort1_eap_enabled": false,
+        "hyperarc_cohort2_eap_tos_accepted": false,
+        "hyperarc_cohort2_eap_enabled": false,
+        "zqa_quality_score_eap_tos_accepted": false,
+        "zqa_quality_score_eap_enabled": false,
+        "messaging_end_user_presence_eap_tos_accepted": false,
+        "messaging_end_user_presence_eap_enabled": false,
+        "task_agents_eap_tos_accepted": false,
+        "task_agents_eap_enabled": false,
+        "zra_realtime_insights_eap_tos_accepted": false,
+        "zra_realtime_insights_eap_enabled": false,
+        "admin_copilot_eap_tos_accepted": false,
+        "admin_copilot_eap_enabled": false,
+        "knowledge_copilot_eap_tos_accepted": false,
+        "knowledge_copilot_eap_enabled": false,
+        "zra_ai_agent_eap_tos_accepted": false,
+        "zra_ai_agent_eap_enabled": false,
+        "pdf_ingestion_eap_tos_accepted": false,
+        "pdf_ingestion_eap_enabled": false,
+        "contentful_eap_tos_accepted": false,
+        "contentful_eap_enabled": false,
+        "approvals_hitl_sequential_eap_tos_accepted": false,
+        "approvals_hitl_sequential_eap_enabled": false,
+        "suggested_assignees_eap_tos_accepted": false,
+        "suggested_assignees_eap_enabled": false,
+        "email_msar_eap_tos_accepted": false,
+        "email_msar_eap_enabled": false,
+        "lisbon_theme_eap_tos_accepted": false,
+        "lisbon_theme_eap_enabled": false,
+        "ai_agents_autoserve_eap_tos_accepted": false,
+        "ai_agents_autoserve_eap_enabled": false,
+        "iap_admin_copilot_action_flows_eap_tos_accepted": false,
+        "iap_admin_copilot_action_flows_eap_enabled": false
+      },
+      "groups": {
+        "check_group_name_uniqueness": true
+      },
+      "chat": {
+        "enabled": false,
+        "integrated": false,
+        "available": true,
+        "maximum_request_count": 1,
+        "welcome_message": "Olá. Como posso ajudá-lo hoje?",
+        "ctm_auto_activation_timestamp": null,
+        "ctm_migrated_timestamp": null,
+        "ctm_auto_activation_status": 0,
+        "ctm_prevent_opt_out": false,
+        "ctm_segment": 0,
+        "ctm_operating_hours_migration_status": 0,
+        "ctm_chat_triggers_migration_status": 0,
+        "ctm_chat_triggers_llm_migration_status": 0,
+        "ctm_default_setup_csat_status": 0,
+        "ctm_pre_chat_form_migration_status": 0,
+        "ctm_offline_form_migration_status": 0,
+        "ctm_visitor_ip_banned_migration_status": 0,
+        "ctm_goals_migration_status": 0,
+        "ctm_chat_routing_migration_status": 0,
+        "ctm_pre_chat_group_routing_status": 0,
+        "ctm_offline_ticket_config_status": 0,
+        "ctm_device_metadata_migration_status": 0,
+        "ctm_reporting_migration_status": 0,
+        "ctm_chat_api_migration_status": 0,
+        "ctm_mobile_sdk_migration_status": 0,
+        "ctm_default_setup_end_session_status": 0,
+        "ctm_default_setup_auto_release_status": 0,
+        "ctm_default_setup_wait_time_status": 0
+      },
+      "voice": {
+        "enabled": true,
+        "logging": false,
+        "outbound_enabled": true,
+        "agent_confirmation_when_forwarding": true,
+        "agent_wrap_up_after_calls": true,
+        "maximum_queue_size": 5,
+        "maximum_queue_wait_time": 1,
+        "only_during_business_hours": false,
+        "recordings_public": true,
+        "uk_mobile_forwarding": true,
+        "voice_ai_enabled": false,
+        "voice_ai_display_transcript": false,
+        "voice_zendesk_qa_enabled": false,
+        "knowledge_suggestions_enabled": false,
+        "knowledge_suggestions_group_ids": [],
+        "voice_transcriptions_pii_redaction": false,
+        "voice_transcriptions_pci_redaction": false,
+        "voice_transcriptions_boosted_keywords_enabled": false,
+        "voice_transcriptions_boosted_keywords": ""
+      },
+      "twitter": {
+        "shorten_url": "never"
+      },
+      "google_apps": {
+        "has_google_apps": false,
+        "has_google_apps_admin": false
+      },
+      "user": {
+        "tagging": true,
+        "time_zone_selection": true,
+        "language_selection": true,
+        "multiple_organizations": false,
+        "agent_created_welcome_emails": true,
+        "end_user_phone_number_validation": true,
+        "have_gravatars_enabled": true
+      },
+      "screencast": {
+        "enabled_for_tickets": false,
+        "host": null,
+        "tickets_recorder_id": null
+      },
+      "lotus": {
+        "prefer_lotus": true,
+        "reporting": true,
+        "pod_id": 20
+      },
+      "statistics": {
+        "forum": false,
+        "search": true,
+        "rule_usage": true
+      },
+      "billing": {
+        "backend": "zuora"
+      },
+      "active_features": {
+        "on_hold_status": false,
+        "user_tagging": true,
+        "ticket_tagging": true,
+        "topic_suggestion": false,
+        "voice": true,
+        "business_hours": true,
+        "facebook_login": false,
+        "google_login": false,
+        "twitter_login": false,
+        "forum_analytics": true,
+        "agent_forwarding": false,
+        "chat": false,
+        "chat_about_my_ticket": false,
+        "customer_satisfaction": true,
+        "customer_satisfaction_survey": false,
+        "satisfaction_prediction": false,
+        "automatic_answers": false,
+        "csat_reason_code": false,
+        "screencasts": false,
+        "markdown": false,
+        "bcc_archiving": false,
+        "allow_ccs": true,
+        "organization_access_enabled": true,
+        "audit_logs_gdpr": false,
+        "access_logs_enabled": false,
+        "explore": true,
+        "explore_on_support_ent_plan": false,
+        "explore_on_support_pro_plan": true,
+        "good_data_and_explore": false,
+        "good_data_only": false,
+        "explore_forbidden": false,
+        "explore_not_set": false,
+        "sandbox": false,
+        "suspended_ticket_notification": false,
+        "twitter": false,
+        "facebook": false,
+        "dynamic_contents": false,
+        "light_agents": false,
+        "ticket_forms": true,
+        "user_org_fields": true,
+        "is_abusive": false,
+        "rich_content_in_emails": true,
+        "custom_object_nav_enabled": true,
+        "release_control_enabled": true,
+        "data_masking_configured_in_roles": false,
+        "agent_task_lists": false,
+        "approvals_activated": true,
+        "has_ever_used_approvals": false,
+        "has_ever_used_tasks": false,
+        "benchmark_opt_out": false,
+        "custom_dkim_domain": true,
+        "allow_email_template_customization": true,
+        "custom_objects_activated": true,
+        "complex_relationships_enabled": false,
+        "approvers_as_end_users": false
+      },
+      "ticket_form": {
+        "ticket_forms_instructions": "Escolha seu problema abaixo",
+        "raw_ticket_forms_instructions": "{{zd.default_ticket_forms_instructions}}"
+      },
+      "brands": {
+        "default_brand_id": 51242552746132,
+        "require_brand_on_new_tickets": false,
+        "end_user_across_brand_requests": false,
+        "new_agent_brand_association_behavior": "all_brands",
+        "end_user_upgrade_brand_association_behavior": "previous_brands"
+      },
+      "api": {
+        "accepted_api_agreement": true,
+        "api_password_access": "false",
+        "api_password_access_end_users": false,
+        "api_token_access": "0"
+      },
+      "rule": {
+        "macro_most_used": true,
+        "macro_order": "alphabetical",
+        "skill_based_filtered_views": [],
+        "using_skill_based_routing": false,
+        "enable_macro_suggestions": false
+      },
+      "limits": {
+        "attachment_size": 52428800
+      },
+      "onboarding": {
+        "checklist_onboarding_version": 12,
+        "onboarding_segments": null,
+        "product_sign_up": null
+      },
+      "cross_sell": {
+        "show_chat_tooltip": true,
+        "xsell_source": null
+      },
+      "cdn": {
+        "cdn_provider": "default",
+        "fallback_cdn_provider": "secondary",
+        "hosts": [
+          {
+            "name": "default",
+            "url": "https://static.zdassets.com"
+          },
+          {
+            "name": "secondary",
+            "url": "https://static-fallback.zdassets.com"
+          }
+        ]
+      },
+      "metrics": {
+        "account_size": "1-99"
+      },
+      "localization": {
+        "locale_ids": [],
+        "time_zone": "America/Sao_Paulo",
+        "iana_time_zone": "America/Sao_Paulo",
+        "default_locale_identifier": "pt-br",
+        "uses_12_hour_clock": false
+      },
+      "knowledge": {
+        "default_search_filters_brands": "_TICKET",
+        "default_search_filters_categories": "",
+        "default_search_filters_external_content_sources": "",
+        "default_search_filters_locales": "_TICKET",
+        "default_search_filters_sections": "",
+        "search_articles": true,
+        "search_community_posts": true,
+        "search_external_content": true,
+        "require_article_templates": false,
+        "generative_answers": true
+      },
+      "routing": {
+        "enabled": true,
+        "autorouting_tag": "auto-routing",
+        "max_email_capacity": 1,
+        "max_messaging_capacity": 1,
+        "reassignment_messaging_enabled": false,
+        "reassignment_messaging_timeout": 30,
+        "reassignment_talk_timeout": 30,
+        "skills_enabled": false,
+        "skills_timeout_enabled": false,
+        "skills_timeout_support": 3600,
+        "skills_timeout_messaging": 30,
+        "skills_timeout_talk": 30,
+        "reassignment_reopened_tickets_enabled": false,
+        "reassignment_reopened_tickets_support_enabled": false,
+        "reassignment_reopened_tickets_messaging_enabled": false,
+        "reassignment_reopened_tickets_support_statuses": [],
+        "reassignment_reopened_tickets_messaging_statuses": [],
+        "reassignment_agent_status_change_enabled": false,
+        "reassignment_agent_status_change_support_enabled": false,
+        "reassignment_agent_status_change_messaging_enabled": false,
+        "reassignment_agent_status_change_support_agent_statuses": [],
+        "reassignment_agent_status_change_support_ticket_priorities": [],
+        "reassignment_agent_status_change_messaging_agent_statuses": [],
+        "reassignment_agent_status_change_messaging_ticket_priorities": [],
+        "reassignment_through_queues_enabled": false,
+        "messaging_activity_routing_enabled": false,
+        "auto_activation": 0,
+        "auto_open_email_enabled": false,
+        "auto_accept_messaging_enabled": false,
+        "focus_mode_enabled": false,
+        "assignment_method": "highest_spare_capacity",
+        "ticket_sorting_prioritize_sla": false,
+        "transform_to_email_enabled": false
+      },
+      "deletion": {
+        "user_auto_delete_soft_deleted_retention": 30,
+        "user_auto_delete_max_deletions_per_hour": 1000,
+        "user_auto_delete_batch_size": 1000,
+        "user_auto_delete_account_prioritisation": 1
+      },
+      "messaging_inactivity": {
+        "timeout": 5,
+        "enabled": true,
+        "ticket_status_id": 51242552769812,
+        "end_session": false,
+        "reminders": [
+          {
+            "message": "Aguardo sua resposta. Se você não fornecer uma resposta dentro de alguns minutos, este ticket será marcado como resolvido.",
+            "tags": [
+              "mensagens_lembrete_1"
+            ]
+          },
+          {
+            "timeout": 300,
+            "message": "Este ticket será marcado como resolvido em breve. Esperamos sua resposta.",
+            "ticket_status_id": null,
+            "tags": [
+              "mensagens_lembrete_2"
+            ]
+          },
+          {
+            "timeout": 60,
+            "message": "Como não recebemos nenhuma resposta, marcaremos este ticket como resolvido.",
+            "ticket_status_id": 51242539267732,
+            "tags": [
+              "mensagens_lembrete_final"
+            ]
+          }
+        ],
+        "default_localized_messages": {
+          "pre_solved_message_1": "Aguardo sua resposta. Se você não fornecer uma resposta dentro de alguns minutos, este ticket será marcado como resolvido.",
+          "pre_solved_message_2": "Este ticket será marcado como resolvido em breve. Esperamos sua resposta.",
+          "solved_message": "Como não recebemos nenhuma resposta, marcaremos este ticket como resolvido."
+        }
+      },
+      "device_metadata": {
+        "enabled": true,
+        "hide_ip": true,
+        "hide_location": true
+      },
+      "messaging": {
+        "messaging_end_session": true
+      },
+      "it_asset_management": {
+        "enabled": false,
+        "has_ever_been_enabled": false
+      },
+      "end_user_mcp": {
+        "enabled": false,
+        "oauth_client_id": null,
+        "oauth_auth_enabled": false,
+        "jwt_auth_enabled": false,
+        "request_update_polling_delay_ms": 10000,
+        "openai_challenge_token": null,
+        "mcp_enabled_brands": []
+      },
+      "agent_mcp": {
+        "enabled": false,
+        "oauth_client_id": null,
+        "oauth_auth_enabled": false
+      },
+      "saas_management_enabled": false,
+      "email": {
+        "accept_wildcard_emails": false,
+        "custom_dkim_domain": false,
+        "email_status": true,
+        "email_sender_authentication": true,
+        "email_sender_authentication_profile": "enhanced",
+        "email_template_photos": true,
+        "email_template_selection": false,
+        "gmail_actions": true,
+        "html_mail_template": "<!DOCTYPE html>\n<html dir=\"auto\" {{lang}}>\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n  <style type=\"text/css\">\n    table td {\n      border-collapse: collapse;\n    }\n    {{styles}}\n  </style>\n</head>\n<body {{attributes}} style=\"width: 100%!important; margin: 0; padding: 0;\">\n  <div style=\"font-family: 'system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','sans-serif'; font-size: 14px; line-height: 1.5; color:#444444;\">\n    {{content}}\n  </div><br/>\n  <div style=\"font-family: 'system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','sans-serif'; font-size: 12px; line-height: 1.5; color: #49545c; margin: 10px 0 14px 0; padding-top: 10px;\">\n    {{footer}} {{footer_link}}\n  </div><br/>\n  {{quoted_content}}\n</body>\n</html>\n",
+        "mail_delimiter": "{{txt.email.delimiter}}",
+        "modern_email_template": true,
+        "no_mail_delimiter": true,
+        "personalized_replies": true,
+        "rich_content_in_emails": true,
+        "send_gmail_messages_via_gmail": true,
+        "text_mail_template": "{{content}}\n\n{{footer}}\n\n{{quoted_content}}",
+        "multi_recipient_email_tickets": false
+      },
+      "side_conversations": {
+        "email_channel": false,
+        "msteams_channel": false,
+        "slack_channel": false,
+        "tickets_channel": false,
+        "show_in_context_panel": true
+      },
+      "approvals": {
+        "slack_workspace": ""
+      },
+      "ai": {
+        "macro_content_suggestions_title_gen_enabled": false,
+        "admin_copilot_conversational_enabled": true
+      }
+    }
+  }
+}

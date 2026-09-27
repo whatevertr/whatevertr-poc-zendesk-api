@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/v2/oauth/tokens.json",
+  "payload": {
+    "token": {
+      "client_id": 51265553993364,
+      "scopes": [
+        "impersonate",
+        "write",
+        "read"
+      ]
+    }
+  },
+  "nota": null
+}

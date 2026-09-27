@@ -1,0 +1,11 @@
+{
+  "method": "POST",
+  "path": "/api/v2/tickets/14/satisfaction_rating.json",
+  "payload": {
+    "satisfaction_rating": {
+      "score": "good",
+      "comment": "Teste POC."
+    }
+  },
+  "nota": null
+}

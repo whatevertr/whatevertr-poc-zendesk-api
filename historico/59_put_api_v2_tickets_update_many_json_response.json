@@ -1,0 +1,15 @@
+{
+  "status_code": 200,
+  "body": {
+    "job_status": {
+      "id": "V3-e68439b60ebdf0d7015d342bef6d5389",
+      "job_type": "Bulk Update Ticket",
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/job_statuses/V3-e68439b60ebdf0d7015d342bef6d5389.json",
+      "total": 6,
+      "progress": null,
+      "status": "queued",
+      "message": null,
+      "results": null
+    }
+  }
+}

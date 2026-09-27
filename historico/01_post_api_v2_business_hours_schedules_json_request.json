@@ -1,0 +1,10 @@
+{
+  "method": "POST",
+  "path": "/api/v2/business_hours/schedules.json",
+  "payload": {
+    "schedule": {
+      "name": "Horario Util POC",
+      "time_zone": "America/Sao_Paulo"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "method": "PUT",
+  "path": "/api/v2/account/settings.json",
+  "payload": {
+    "settings": {
+      "active_features": {
+        "customer_satisfaction": true
+      }
+    }
+  },
+  "nota": null
+}

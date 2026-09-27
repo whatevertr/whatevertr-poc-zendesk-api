@@ -1,0 +1,17 @@
+{
+  "status_code": 200,
+  "body": {
+    "satisfaction_rating": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/satisfaction_ratings/51265522003092.json",
+      "id": 51265522003092,
+      "assignee_id": 51242520206100,
+      "group_id": 51262745235220,
+      "requester_id": 51262855326996,
+      "ticket_id": 14,
+      "score": "good",
+      "created_at": "2026-07-12T22:53:32Z",
+      "updated_at": "2026-07-12T22:53:32Z",
+      "comment": "Atendimento resolvido. Avaliacao de teste POC (dado sintetico)."
+    }
+  }
+}

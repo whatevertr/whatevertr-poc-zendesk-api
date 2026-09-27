@@ -1,0 +1,53 @@
+{
+  "method": "POST",
+  "path": "/api/v2/ticket_fields.json",
+  "payload": {
+    "ticket_field": {
+      "type": "tagger",
+      "title": "Submotivo (N3)",
+      "description": "POC - submotivo nivel 3 (criticidade no nome)",
+      "custom_field_options": [
+        {
+          "name": "Devolucao - Critico",
+          "value": "sub_devolucao_critico"
+        },
+        {
+          "name": "Devolucao - Padrao",
+          "value": "sub_devolucao_padrao"
+        },
+        {
+          "name": "Coleta - Critico",
+          "value": "sub_coleta_critico"
+        },
+        {
+          "name": "Coleta - Padrao",
+          "value": "sub_coleta_padrao"
+        },
+        {
+          "name": "NFD - Critico",
+          "value": "sub_nfd_critico"
+        },
+        {
+          "name": "NFD - Padrao",
+          "value": "sub_nfd_padrao"
+        },
+        {
+          "name": "Estorno - Critico",
+          "value": "sub_estorno_critico"
+        },
+        {
+          "name": "Estorno - Padrao",
+          "value": "sub_estorno_padrao"
+        },
+        {
+          "name": "Generico A - Padrao",
+          "value": "sub_generico_a_padrao"
+        },
+        {
+          "name": "Generico B - Padrao",
+          "value": "sub_generico_b_padrao"
+        }
+      ]
+    }
+  }
+}

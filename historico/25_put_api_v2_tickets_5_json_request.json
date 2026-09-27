@@ -1,0 +1,14 @@
+{
+  "method": "PUT",
+  "path": "/api/v2/tickets/5.json",
+  "payload": {
+    "ticket": {
+      "custom_fields": [
+        {
+          "id": 51262766832660,
+          "value": "motivo_coleta"
+        }
+      ]
+    }
+  }
+}

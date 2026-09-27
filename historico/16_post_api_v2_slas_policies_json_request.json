@@ -1,0 +1,67 @@
+{
+  "method": "POST",
+  "path": "/api/v2/slas/policies.json",
+  "payload": {
+    "sla_policy": {
+      "title": "SLA Padrao 24h uteis",
+      "description": "POC - submotivos padrao",
+      "position": 3,
+      "filter": {
+        "all": [],
+        "any": [
+          {
+            "field": "custom_fields_51262766882580",
+            "operator": "is",
+            "value": "sub_devolucao_padrao"
+          },
+          {
+            "field": "custom_fields_51262766882580",
+            "operator": "is",
+            "value": "sub_coleta_padrao"
+          },
+          {
+            "field": "custom_fields_51262766882580",
+            "operator": "is",
+            "value": "sub_nfd_padrao"
+          },
+          {
+            "field": "custom_fields_51262766882580",
+            "operator": "is",
+            "value": "sub_generico_a_padrao"
+          },
+          {
+            "field": "custom_fields_51262766882580",
+            "operator": "is",
+            "value": "sub_generico_b_padrao"
+          }
+        ]
+      },
+      "policy_metrics": [
+        {
+          "priority": "low",
+          "metric": "first_reply_time",
+          "target": 1440,
+          "business_hours": true
+        },
+        {
+          "priority": "normal",
+          "metric": "first_reply_time",
+          "target": 1440,
+          "business_hours": true
+        },
+        {
+          "priority": "high",
+          "metric": "first_reply_time",
+          "target": 1440,
+          "business_hours": true
+        },
+        {
+          "priority": "urgent",
+          "metric": "first_reply_time",
+          "target": 1440,
+          "business_hours": true
+        }
+      ]
+    }
+  }
+}

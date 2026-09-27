@@ -1,0 +1,10 @@
+{
+  "method": "POST",
+  "path": "/api/v2/group_memberships.json",
+  "payload": {
+    "group_membership": {
+      "user_id": 51242520206100,
+      "group_id": 51262745284372
+    }
+  }
+}

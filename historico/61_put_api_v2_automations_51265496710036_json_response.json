@@ -1,0 +1,14 @@
+{
+  "status_code": 422,
+  "body": {
+    "error": "RecordInvalid",
+    "description": "Record validation errors",
+    "details": {
+      "base": [
+        {
+          "description": "A automação deve conter ao menos uma ação"
+        }
+      ]
+    }
+  }
+}

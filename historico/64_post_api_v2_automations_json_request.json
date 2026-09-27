@@ -1,0 +1,60 @@
+{
+  "method": "POST",
+  "path": "/api/v2/automations.json",
+  "payload": {
+    "automation": {
+      "title": "CSAT POC - pesquisa 1h pos-resolucao (so casca)",
+      "active": true,
+      "conditions": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "less_than",
+            "value": "closed"
+          },
+          {
+            "field": "SOLVED",
+            "operator": "is",
+            "value": "1"
+          },
+          {
+            "field": "satisfaction_score",
+            "operator": "is",
+            "value": "unoffered"
+          },
+          {
+            "field": "ticket_is_public",
+            "operator": "is",
+            "value": "public"
+          },
+          {
+            "field": "current_tags",
+            "operator": "includes",
+            "value": "trilha_casca"
+          },
+          {
+            "field": "current_tags",
+            "operator": "not_includes",
+            "value": "etapa_trilha"
+          }
+        ],
+        "any": []
+      },
+      "actions": [
+        {
+          "field": "satisfaction_score",
+          "value": "offered"
+        },
+        {
+          "field": "notification_user",
+          "value": [
+            "requester_id",
+            "Como foi nosso atendimento? {{satisfaction.rating_section}}",
+            "Avalie: {{satisfaction.rating_section}} (POC)"
+          ]
+        }
+      ]
+    }
+  },
+  "nota": null
+}

@@ -1,0 +1,37 @@
+{
+  "method": "POST",
+  "path": "/api/v2/ticket_fields.json",
+  "payload": {
+    "ticket_field": {
+      "type": "tagger",
+      "title": "Motivo (N2)",
+      "description": "POC - motivo nivel 2",
+      "custom_field_options": [
+        {
+          "name": "Devolucao",
+          "value": "motivo_devolucao"
+        },
+        {
+          "name": "Coleta",
+          "value": "motivo_coleta"
+        },
+        {
+          "name": "NFD",
+          "value": "motivo_nfd"
+        },
+        {
+          "name": "Estorno",
+          "value": "motivo_estorno"
+        },
+        {
+          "name": "Motivo Generico A",
+          "value": "motivo_generico_a"
+        },
+        {
+          "name": "Motivo Generico B",
+          "value": "motivo_generico_b"
+        }
+      ]
+    }
+  }
+}

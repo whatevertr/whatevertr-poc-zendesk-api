@@ -1,0 +1,30 @@
+{
+  "method": "POST",
+  "path": "/api/v2/triggers.json",
+  "payload": {
+    "trigger": {
+      "title": "Roteamento POC - motivo_nfd -> Celula Logistica",
+      "conditions": {
+        "all": [
+          {
+            "field": "update_type",
+            "operator": "is",
+            "value": "Create"
+          },
+          {
+            "field": "custom_fields_51262766832660",
+            "operator": "is",
+            "value": "motivo_nfd"
+          }
+        ],
+        "any": []
+      },
+      "actions": [
+        {
+          "field": "group_id",
+          "value": "51262745284372"
+        }
+      ]
+    }
+  }
+}

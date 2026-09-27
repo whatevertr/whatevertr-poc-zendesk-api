@@ -1,0 +1,16 @@
+{
+  "status_code": 201,
+  "body": {
+    "group": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/groups/51262730291092.json",
+      "id": 51262730291092,
+      "is_public": true,
+      "name": "Celula Transporte",
+      "description": "POC taxonomia - celula Celula Transporte",
+      "default": false,
+      "deleted": false,
+      "created_at": "2026-07-12T20:11:21Z",
+      "updated_at": "2026-07-12T20:11:21Z"
+    }
+  }
+}

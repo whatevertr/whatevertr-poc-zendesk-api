@@ -1,0 +1,98 @@
+{
+  "status_code": 200,
+  "body": {
+    "sla_policy": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/slas/policies/51262753151764.json",
+      "id": 51262753151764,
+      "title": "SLA Critico 4h uteis",
+      "description": "POC - submotivos criticos",
+      "position": 1,
+      "filter": {
+        "all": [],
+        "any": [
+          {
+            "field": "ticket_fields_51262766882580",
+            "operator": "is",
+            "value": "51262747076372"
+          },
+          {
+            "field": "ticket_fields_51262766882580",
+            "operator": "is",
+            "value": "51262747076628"
+          },
+          {
+            "field": "ticket_fields_51262766882580",
+            "operator": "is",
+            "value": "51262747076884"
+          },
+          {
+            "field": "ticket_fields_51262766882580",
+            "operator": "is",
+            "value": "51262747077140"
+          }
+        ]
+      },
+      "policy_metrics": [
+        {
+          "priority": "low",
+          "metric": "first_reply_time",
+          "target": 240,
+          "business_hours": true,
+          "target_in_seconds": 14400
+        },
+        {
+          "priority": "normal",
+          "metric": "first_reply_time",
+          "target": 240,
+          "business_hours": true,
+          "target_in_seconds": 14400
+        },
+        {
+          "priority": "high",
+          "metric": "first_reply_time",
+          "target": 240,
+          "business_hours": true,
+          "target_in_seconds": 14400
+        },
+        {
+          "priority": "urgent",
+          "metric": "first_reply_time",
+          "target": 240,
+          "business_hours": true,
+          "target_in_seconds": 14400
+        },
+        {
+          "priority": "low",
+          "metric": "requester_wait_time",
+          "target": 240,
+          "business_hours": true,
+          "target_in_seconds": 14400
+        },
+        {
+          "priority": "normal",
+          "metric": "requester_wait_time",
+          "target": 240,
+          "business_hours": true,
+          "target_in_seconds": 14400
+        },
+        {
+          "priority": "high",
+          "metric": "requester_wait_time",
+          "target": 240,
+          "business_hours": true,
+          "target_in_seconds": 14400
+        },
+        {
+          "priority": "urgent",
+          "metric": "requester_wait_time",
+          "target": 240,
+          "business_hours": true,
+          "target_in_seconds": 14400
+        }
+      ],
+      "created_at": "2026-07-12T20:12:46Z",
+      "updated_at": "2026-07-12T22:30:21Z",
+      "metric_settings": null
+    }
+  }
+}

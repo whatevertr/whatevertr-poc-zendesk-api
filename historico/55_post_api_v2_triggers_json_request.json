@@ -1,0 +1,39 @@
+{
+  "method": "POST",
+  "path": "/api/v2/triggers.json",
+  "payload": {
+    "trigger": {
+      "title": "Trava POC - Estorno fora da Celula Financeiro (corretiva)",
+      "conditions": {
+        "all": [
+          {
+            "field": "update_type",
+            "operator": "is",
+            "value": "Change"
+          },
+          {
+            "field": "custom_fields_51262766832660",
+            "operator": "is",
+            "value": "motivo_estorno"
+          },
+          {
+            "field": "group_id",
+            "operator": "is_not",
+            "value": "51262730328340"
+          }
+        ],
+        "any": []
+      },
+      "actions": [
+        {
+          "field": "group_id",
+          "value": "51262730328340"
+        },
+        {
+          "field": "current_tags",
+          "value": "roteamento_corrigido"
+        }
+      ]
+    }
+  }
+}

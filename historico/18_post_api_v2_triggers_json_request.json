@@ -1,0 +1,30 @@
+{
+  "method": "POST",
+  "path": "/api/v2/triggers.json",
+  "payload": {
+    "trigger": {
+      "title": "Roteamento POC - motivo_coleta -> Celula Transporte",
+      "conditions": {
+        "all": [
+          {
+            "field": "update_type",
+            "operator": "is",
+            "value": "Create"
+          },
+          {
+            "field": "custom_fields_51262766832660",
+            "operator": "is",
+            "value": "motivo_coleta"
+          }
+        ],
+        "any": []
+      },
+      "actions": [
+        {
+          "field": "group_id",
+          "value": "51262730291092"
+        }
+      ]
+    }
+  }
+}

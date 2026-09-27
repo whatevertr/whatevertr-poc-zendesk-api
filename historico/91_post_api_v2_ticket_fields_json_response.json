@@ -1,0 +1,50 @@
+{
+  "status_code": 201,
+  "body": {
+    "ticket_field": {
+      "url": "https://SUBDOMINIO_TESTE.zendesk.com/api/v2/ticket_fields/51441453381396.json",
+      "id": 51441453381396,
+      "type": "tagger",
+      "title": "Aprovacao Financeira (POC T9)",
+      "raw_title": "Aprovacao Financeira (POC T9)",
+      "description": "Campo novo obrigatorio para teste de legado",
+      "raw_description": "Campo novo obrigatorio para teste de legado",
+      "position": 9999,
+      "active": true,
+      "required": true,
+      "collapsed_for_agents": false,
+      "regexp_for_validation": null,
+      "title_in_portal": "Aprovacao Financeira (POC T9)",
+      "raw_title_in_portal": "Aprovacao Financeira (POC T9)",
+      "visible_in_portal": true,
+      "editable_in_portal": true,
+      "required_in_portal": true,
+      "agent_can_edit": true,
+      "tag": null,
+      "created_at": "2026-07-17T02:19:37Z",
+      "updated_at": "2026-07-17T02:19:37Z",
+      "removable": true,
+      "key": null,
+      "agent_description": null,
+      "raw_agent_description": null,
+      "custom_field_options": [
+        {
+          "id": 51441406164116,
+          "name": "Aprovado",
+          "raw_name": "Aprovado",
+          "value": "aprov_sim",
+          "default": false,
+          "allow_solving": true
+        },
+        {
+          "id": 51441406164244,
+          "name": "Reprovado",
+          "raw_name": "Reprovado",
+          "value": "aprov_nao",
+          "default": false,
+          "allow_solving": true
+        }
+      ]
+    }
+  }
+}
